@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>SysML-graphical-bnf-corrected</title>  
+<title>SysML-graphical-bnf-corrected</title>
 <link rel="stylesheet" type="text/css" href="bnf_styles.css">
 </head>
 <body>
@@ -49,8 +49,8 @@
 </pre>
 <a id="rel-name"></a>
 <pre>rel-name =
-      <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
-    | <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>
+      <a href="SysML-textual-bnf.html#Identification">Identification</a>
+    | <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>
 </pre>
 <p>// Note. An element inside a textual compartment is selected by graying out a substring containing the element. The grayed-out section must cover a single element within the textual syntax inside the compartment.
 </p>
@@ -100,7 +100,7 @@
      | <a href="#textual-representation-node">textual-representation-node</a>
 </pre>
 <a id="text-block"></a>
-<pre>text-block = (<a href="KerML-textual-bnf-corrected.html#LINE_TEXT_">LINE_TEXT</a>)*
+<pre>text-block = (<a href="KerML-textual-bnf.html#LINE_TEXT_">LINE_TEXT</a>)*
 </pre>
 <a id="comment-node"></a>
 <pre>comment-node =
@@ -122,7 +122,7 @@
 <a id="documentation-compartment"></a>
 <pre>documentation-compartment =
        <img src="images/documentation-compartment.svg" width="408.0">
-       <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
+       <a href="SysML-textual-bnf.html#Identification">Identification</a>
        <a href="#text-block">text-block</a>
 </pre>
 <a id="textual-representation-node"></a>
@@ -130,7 +130,7 @@
         <img src="images/textual-representation-node.svg" width="229.92000000000002">
 </pre>
 <a id="language-string"></a>
-<pre>language-string = 'language' '=' <a href="KerML-textual-bnf-corrected.html#STRING_VALUE_">STRING_VALUE</a>
+<pre>language-string = 'language' '=' <a href="KerML-textual-bnf.html#STRING_VALUE_">STRING_VALUE</a>
 </pre>
 <a id="annotation-link"></a>
 <pre>annotation-link =
@@ -190,7 +190,7 @@
 <pre>packages-compartment-contents = <a href="#packages-compartment-element">packages-compartment-element</a>* '…'?
 </pre>
 <a id="packages-compartment-element"></a>
-<pre>packages-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
+<pre>packages-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#Identification">Identification</a>
 </pre>
 <a id="members-compartment"></a>
 <pre>members-compartment =
@@ -201,7 +201,7 @@
 <pre>members-compartment-contents = <a href="#members-compartment-element">members-compartment-element</a>* '…'?
 </pre>
 <a id="members-compartment-element"></a>
-<pre>members-compartment-element = <a href="#el-prefix">el-prefix</a>? (<a href="SysML-textual-bnf-corrected.html#DefinitionElement">DefinitionElement</a> | <a href="SysML-textual-bnf-corrected.html#UsageElement">UsageElement</a>)
+<pre>members-compartment-element = <a href="#el-prefix">el-prefix</a>? (<a href="SysML-textual-bnf.html#DefinitionElement">DefinitionElement</a> | <a href="SysML-textual-bnf.html#UsageElement">UsageElement</a>)
 </pre>
 <a id="relationships-compartment"></a>
 <pre>relationships-compartment =
@@ -212,7 +212,7 @@
 <pre>relationships-compartment-contents = (<a href="#relationships-compartment-element">relationships-compartment-element</a>)* '…'?
 </pre>
 <a id="relationships-compartment-element"></a>
-<pre>relationships-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="#relationship-name">relationship-name</a> <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>
+<pre>relationships-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="#relationship-name">relationship-name</a> <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>
 </pre>
 <a id="relationship-name"></a>
 <pre>relationship-name =
@@ -261,13 +261,13 @@
 </pre>
 <a id="definition-name-with-alias"></a>
 <pre>definition-name-with-alias =
-    <a href="SysML-textual-bnf-corrected.html#DefinitionDeclaration">DefinitionDeclaration</a>
-    ( '«alias»' ( <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a> (',' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>)* ) )?
+    <a href="SysML-textual-bnf.html#DefinitionDeclaration">DefinitionDeclaration</a>
+    ( '«alias»' ( <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a> (',' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>)* ) )?
 </pre>
 <a id="usage-name-with-alias"></a>
 <pre>usage-name-with-alias =
-    '^'? <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
-    ( '«alias»' ( <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a> (',' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>)* ) )?
+    '^'? <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
+    ( '«alias»' ( <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a> (',' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>)* ) )?
 </pre>
 <a id="compartment-stack"></a>
 <pre>compartment-stack = (<a href="#compartment">compartment</a>)*
@@ -286,7 +286,7 @@
 <pre>features-compartment-contents = (<a href="#features-compartment-element">features-compartment-element</a>)* '…'?
 </pre>
 <a id="features-compartment-element"></a>
-<pre>features-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#UsagePrefix">UsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>features-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#UsagePrefix">UsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <a id="variants-compartment"></a>
 <pre>variants-compartment =
@@ -345,7 +345,7 @@
 <pre>el-prefix = '^' | '/'
 </pre>
 <a id="usage-cp"></a>
-<pre>usage-cp = usageDeclaration <a href="SysML-textual-bnf-corrected.html#ValuePart">ValuePart</a>?
+<pre>usage-cp = usageDeclaration <a href="SysML-textual-bnf.html#ValuePart">ValuePart</a>?
 </pre>
 <a id="extended-def"></a>
 <pre>extended-def =
@@ -353,7 +353,7 @@
 </pre>
 <a id="extended-def-name-compartment"></a>
 <pre>extended-def-name-compartment =
-     '«' <a href="SysML-textual-bnf-corrected.html#BasicDefinitionPrefix">BasicDefinitionPrefix</a>? <a href="SysML-textual-bnf-corrected.html#DefinitionExtensionKeyword">DefinitionExtensionKeyword</a>+ 'def' '»'
+     '«' <a href="SysML-textual-bnf.html#BasicDefinitionPrefix">BasicDefinitionPrefix</a>? <a href="SysML-textual-bnf.html#DefinitionExtensionKeyword">DefinitionExtensionKeyword</a>+ 'def' '»'
      <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <p>// Note. This production is only valid for cases where one or more<br>
@@ -368,7 +368,7 @@
 </pre>
 <a id="extended-usage-name-compartment"></a>
 <pre>extended-usage-name-compartment =
-     '«' <a href="SysML-textual-bnf-corrected.html#BasicUsagePrefix">BasicUsagePrefix</a>? <a href="SysML-textual-bnf-corrected.html#UsageExtensionKeyword">UsageExtensionKeyword</a>+ '»'
+     '«' <a href="SysML-textual-bnf.html#BasicUsagePrefix">BasicUsagePrefix</a>? <a href="SysML-textual-bnf.html#UsageExtensionKeyword">UsageExtensionKeyword</a>+ '»'
      <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <p>// Note. This production is only valid for cases where one or more<br>
@@ -386,7 +386,7 @@
 </pre>
 <a id="attribute-def-name-compartment"></a>
 <pre>attribute-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'attribute' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'attribute' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#attribute">attribute</a>
@@ -397,7 +397,7 @@
 </pre>
 <a id="attribute-name-compartment"></a>
 <pre>attribute-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#UsagePrefix">UsagePrefix</a> 'attribute' '»'
+      '«' <a href="SysML-textual-bnf.html#UsagePrefix">UsagePrefix</a> 'attribute' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#attributes-compartment">attributes-compartment</a>
@@ -411,7 +411,7 @@
 <pre>attributes-compartment-contents = (<a href="#attributes-compartment-element">attributes-compartment-element</a>)* '…'?
 </pre>
 <a id="attributes-compartment-element"></a>
-<pre>attributes-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#UsagePrefix">UsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>attributes-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#UsagePrefix">UsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <h4><a id="c8.2.3.8"></a>// Clause 8.2.3.8 Enumerations Graphical Notation</h4>
 <pre>definition-node =| <a href="#enumeration-def">enumeration-def</a>
@@ -422,7 +422,7 @@
 </pre>
 <a id="enumeration-def-name-compartment"></a>
 <pre>enumeration-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'enum' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'enum' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#enumeration">enumeration</a>
@@ -433,7 +433,7 @@
 </pre>
 <a id="enumeration-name-compartment"></a>
 <pre>enumeration-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#UsagePrefix">UsagePrefix</a> 'enum' '»'
+      '«' <a href="SysML-textual-bnf.html#UsagePrefix">UsagePrefix</a> 'enum' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#enums-compartment">enums-compartment</a>
@@ -447,7 +447,7 @@
 <pre>enums-compartment-contents = (<a href="#enums-compartment-element">enums-compartment-element</a>)* '…'?
 </pre>
 <a id="enums-compartment-element"></a>
-<pre>enums-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#UsagePrefix">UsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>enums-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#UsagePrefix">UsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <h4><a id="c8.2.3.9"></a>// Clause 8.2.3.9 Occurrences Graphical Notation</h4>
 <pre>definition-node =| <a href="#occurrence-def">occurrence-def</a>
@@ -460,7 +460,7 @@
 </pre>
 <a id="occurrence-def-name-compartment"></a>
 <pre>occurrence-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'occurrence' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'occurrence' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =|
@@ -478,7 +478,7 @@
 </pre>
 <a id="occurrence-name-compartment"></a>
 <pre>occurrence-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'occurrence' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'occurrence' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="timeslice-or-snapshot-node"></a>
@@ -510,7 +510,7 @@
 </pre>
 <a id="event-occurrence-def-name-compartment"></a>
 <pre>event-occurrence-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'event'  'occurrence' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'event'  'occurrence' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>definition-node =| <a href="#event-occurrence-def">event-occurrence-def</a>
@@ -521,7 +521,7 @@
 </pre>
 <a id="event-occurrence-name-compartment"></a>
 <pre>event-occurrence-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'event'  'occurrence' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'event'  'occurrence' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#event-occurrence">event-occurrence</a>
@@ -553,7 +553,7 @@
 <pre>occurrences-compartment-contents = (<a href="#occurrences-compartment-element">occurrences-compartment-element</a>)* '…'?
 </pre>
 <a id="occurrences-compartment-element"></a>
-<pre>occurrences-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>occurrences-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <a id="individuals-compartment"></a>
 <pre>individuals-compartment =
@@ -617,7 +617,7 @@
       <img src="images/sq-port.svg" width="168.0">
 </pre>
 <a id="sq-port-label"></a>
-<pre>sq-port-label = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>sq-port-label = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="sq-l-node"></a>
 <pre>sq-l-node =
@@ -635,20 +635,20 @@
       <img src="images/sq-proxy-2.svg" width="224.159985">
 </pre>
 <a id="proxy-label"></a>
-<pre>proxy-label = '.'? <a href="SysML-textual-bnf-corrected.html#FeatureChainMember">FeatureChainMember</a>
+<pre>proxy-label = '.'? <a href="SysML-textual-bnf.html#FeatureChainMember">FeatureChainMember</a>
 </pre>
 <a id="sq-graphical-relationship"></a>
 <pre>sq-graphical-relationship = <a href="#message">message</a> | <a href="#sq-succession">sq-succession</a>
 </pre>
 <a id="succession-label"></a>
-<pre>succession-label = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>?
+<pre>succession-label = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>?
 </pre>
 <a id="sq-succession"></a>
 <pre>sq-succession =
     <img src="images/sq-succession.svg" width="768.0">
 </pre>
 <a id="succession-label"></a>
-<pre>succession-label = <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
+<pre>succession-label = <a href="SysML-textual-bnf.html#Identification">Identification</a>
 </pre>
 <p>// Note: the proxy nodes attached to a succession must refer to an event
 </p>
@@ -663,7 +663,7 @@
 </pre>
 <a id="item-def-name-compartment"></a>
 <pre>item-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'item' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'item' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#item">item</a>
@@ -674,7 +674,7 @@
 </pre>
 <a id="item-name-compartment"></a>
 <pre>item-name-compartment =
-    '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'item' '»'
+    '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'item' '»'
     <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="item-ref"></a>
@@ -692,7 +692,7 @@
 <pre>items-compartment-contents = (<a href="#items-compartment-element">items-compartment-element</a>)* '…'
 </pre>
 <a id="items-compartment-element"></a>
-<pre>items-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>items-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <h4><a id="c8.2.3.11"></a>// Clause 8.2.3.11 Parts Graphical Notation</h4>
 <pre>definition-node =| <a href="#part-def">part-def</a>
@@ -705,7 +705,7 @@
 </pre>
 <a id="part-def-name-compartment"></a>
 <pre>part-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'part' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'part' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#part">part</a>
@@ -716,7 +716,7 @@
 </pre>
 <a id="part-name-compartment"></a>
 <pre>part-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'part' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'part' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="part-ref"></a>
@@ -737,7 +737,7 @@
 <pre>parts-compartment-contents = (<a href="#parts-compartment-element">parts-compartment-element</a>)* '…'?
 </pre>
 <a id="parts-compartment-element"></a>
-<pre>parts-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>parts-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <a id="directed-features-compartment"></a>
 <pre>directed-features-compartment =
@@ -749,7 +749,7 @@
 </pre>
 <a id="directed-features-compartment-element"></a>
 <pre>directed-features-compartment-element =
-      <a href="#el-prefix">el-prefix</a> <a href="SysML-textual-bnf-corrected.html#FeatureDirection">FeatureDirection</a> <a href="SysML-textual-bnf-corrected.html#DefinitionBodyItem">DefinitionBodyItem</a>*
+      <a href="#el-prefix">el-prefix</a> <a href="SysML-textual-bnf.html#FeatureDirection">FeatureDirection</a> <a href="SysML-textual-bnf.html#DefinitionBodyItem">DefinitionBodyItem</a>*
 </pre>
 <a id="interconnection-compartment"></a>
 <pre>interconnection-compartment =
@@ -772,7 +772,7 @@
 </pre>
 <a id="port-def-name-compartment"></a>
 <pre>port-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'port' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'port' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#port-usage">port-usage</a>
@@ -783,7 +783,7 @@
 </pre>
 <a id="port-name-compartment"></a>
 <pre>port-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'port' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'port' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#ports-compartment">ports-compartment</a>
@@ -797,7 +797,7 @@
 <pre>ports-compartment-contents = (<a href="#ports-compartment-element">ports-compartment-element</a>)* '…'?
 </pre>
 <a id="ports-compartment-element"></a>
-<pre>ports-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>ports-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <pre>interconnection-element =| <a href="#port-def">port-def</a> | <a href="#port-usage">port-usage</a>
 </pre>
@@ -858,7 +858,7 @@
       <a href="#proxy-h">proxy-h</a>
 </pre>
 <a id="port-label"></a>
-<pre>port-label = <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>)?
+<pre>port-label = <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>)?
 </pre>
 <a id="proxy-v"></a>
 <pre>proxy-v =
@@ -885,7 +885,7 @@
 </pre>
 <a id="connection-def-name-compartment"></a>
 <pre>connection-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'connection' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'connection' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#connection">connection</a>
@@ -896,7 +896,7 @@
 </pre>
 <a id="connection-name-compartment"></a>
 <pre>connection-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'connection' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'connection' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#connections-compartment">connections-compartment</a>
@@ -911,7 +911,7 @@
 </pre>
 <a id="connections-compartment-element"></a>
 <pre>connections-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <pre>interconnection-element =|
       <a href="#connection-def">connection-def</a>
@@ -949,11 +949,11 @@
 </pre>
 <a id="a-subsetting"></a>
 <pre>a-subsetting =
-    'subsets' <a href="SysML-textual-bnf-corrected.html#OwnedSubsetting">OwnedSubsetting</a> (',' <a href="SysML-textual-bnf-corrected.html#OwnedSubsetting">OwnedSubsetting</a>)*
+    'subsets' <a href="SysML-textual-bnf.html#OwnedSubsetting">OwnedSubsetting</a> (',' <a href="SysML-textual-bnf.html#OwnedSubsetting">OwnedSubsetting</a>)*
 </pre>
 <a id="a-redefinition"></a>
 <pre>a-redefinition =
-    'redefines' <a href="SysML-textual-bnf-corrected.html#OwnedRedefinition">OwnedRedefinition</a> (',' <a href="SysML-textual-bnf-corrected.html#OwnedRedefinition">OwnedRedefinition</a>)*
+    'redefines' <a href="SysML-textual-bnf.html#OwnedRedefinition">OwnedRedefinition</a> (',' <a href="SysML-textual-bnf.html#OwnedRedefinition">OwnedRedefinition</a>)*
 </pre>
 <a id="connection-end"></a>
 <pre>connection-end = <a href="#usage-node">usage-node</a> | <a href="#usage-edge">usage-edge</a>
@@ -961,7 +961,7 @@
 <pre>usage-edge =| <a href="#connection-graphical">connection-graphical</a> | <a href="#binding-connection">binding-connection</a>
 </pre>
 <a id="connection-label"></a>
-<pre>connection-label = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>connection-label = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="connection-def-graphical"></a>
 <pre>connection-def-graphical =
@@ -972,7 +972,7 @@
 <pre>general-relationship =| <a href="#connection-def-graphical">connection-def-graphical</a>
 </pre>
 <a id="cdef-label"></a>
-<pre>cdef-label = <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
+<pre>cdef-label = <a href="SysML-textual-bnf.html#Identification">Identification</a>
 </pre>
 <a id="n-ary-connection-def"></a>
 <pre>n-ary-connection-def =
@@ -1001,7 +1001,7 @@
 <pre>usage-node =| <a href="#n-ary-connection-dot">n-ary-connection-dot</a>
 </pre>
 <a id="cdot-label"></a>
-<pre>cdot-label = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>cdot-label = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="n-ary-segment"></a>
 <pre>n-ary-segment =
@@ -1012,10 +1012,10 @@
      <img src="images/binding-connection.svg" width="528.0">
 </pre>
 <a id="rolename"></a>
-<pre>rolename = <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>?
+<pre>rolename = <a href="SysML-textual-bnf.html#Identification">Identification</a>?
 </pre>
 <a id="multiplicity"></a>
-<pre>multiplicity = <a href="SysML-textual-bnf-corrected.html#MultiplicityRange">MultiplicityRange</a>?
+<pre>multiplicity = <a href="SysML-textual-bnf.html#MultiplicityRange">MultiplicityRange</a>?
 </pre>
 <a id="connection-definition-elaboration"></a>
 <pre>connection-definition-elaboration =
@@ -1038,7 +1038,7 @@
 </pre>
 <a id="interface-def-name-compartment"></a>
 <pre>interface-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'interface' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'interface' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#interface">interface</a>
@@ -1049,7 +1049,7 @@
 </pre>
 <a id="interface-name-compartment"></a>
 <pre>interface-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'interface' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'interface' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =|
@@ -1066,7 +1066,7 @@
 </pre>
 <a id="interfaces-compartment-element"></a>
 <pre>interfaces-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#InterfaceUsageDeclaration">InterfaceUsageDeclaration</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#InterfaceUsageDeclaration">InterfaceUsageDeclaration</a>
 </pre>
 <a id="ends-compartment"></a>
 <pre>ends-compartment =
@@ -1077,7 +1077,7 @@
 <pre>ends-compartment-contents = (<a href="#ends-compartment-element">ends-compartment-element</a>)* '…'?
 </pre>
 <a id="ends-compartment-element"></a>
-<pre>ends-compartment-element = <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>)?
+<pre>ends-compartment-element = <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>)?
 </pre>
 <pre>connection-relationship =|
       <a href="#interface-connection">interface-connection</a>
@@ -1087,7 +1087,7 @@
     <img src="images/interface-connection.svg" width="780.0">
 </pre>
 <a id="interface-label"></a>
-<pre>interface-label = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>?
+<pre>interface-label = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>?
 </pre>
 <h4><a id="c8.2.3.15"></a>// Clause 8.2.3.15 Allocations Graphical Notation</h4>
 <pre>definition-node =| <a href="#allocation-def">allocation-def</a>
@@ -1098,7 +1098,7 @@
 </pre>
 <a id="allocation-def-name-compartment"></a>
 <pre>allocation-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'allocation' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'allocation' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#allocation">allocation</a>
@@ -1109,7 +1109,7 @@
 </pre>
 <a id="allocation-name-compartment"></a>
 <pre>allocation-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'allocation' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'allocation' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#allocations-compartment">allocations-compartment</a>
@@ -1124,7 +1124,7 @@
 </pre>
 <a id="allocations-compartment-element"></a>
 <pre>allocations-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#AllocationUsageDeclaration">AllocationUsageDeclaration</a> <a href="SysML-textual-bnf-corrected.html#UsageBody">UsageBody</a>*
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#AllocationUsageDeclaration">AllocationUsageDeclaration</a> <a href="SysML-textual-bnf.html#UsageBody">UsageBody</a>*
 </pre>
 <pre>general-relationship =| <a href="#allocate-relationship">allocate-relationship</a>
 </pre>
@@ -1148,7 +1148,7 @@
 </pre>
 <a id="flow-def-name-compartment"></a>
 <pre>flow-def-name-compartment =
-    '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'succession'? 'flow' 'def' '»'
+    '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'succession'? 'flow' 'def' '»'
     <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#flow-node">flow-node</a>
@@ -1159,7 +1159,7 @@
 </pre>
 <a id="flow-name-compartment"></a>
 <pre>flow-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> ( 'message' | 'succession'? 'flow' ) '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> ( 'message' | 'succession'? 'flow' ) '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#flows-compartment">flows-compartment</a>
@@ -1174,9 +1174,9 @@
 </pre>
 <a id="flows-compartment-element"></a>
 <pre>flows-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a>
-    ( 'message' <a href="SysML-textual-bnf-corrected.html#MessageDeclaration">MessageDeclaration</a>
-    | 'succession'? <a href="SysML-textual-bnf-corrected.html#FlowDeclaration">FlowDeclaration</a>
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a>
+    ( 'message' <a href="SysML-textual-bnf.html#MessageDeclaration">MessageDeclaration</a>
+    | 'succession'? <a href="SysML-textual-bnf.html#FlowDeclaration">FlowDeclaration</a>
     )
 </pre>
 <pre>interconnection-element =|
@@ -1204,7 +1204,7 @@
 </p>
 <a id="message-label"></a>
 <pre>message-label =
-    <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>? ('of' <a href="SysML-textual-bnf-corrected.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>)? | <a href="SysML-textual-bnf-corrected.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>
+    <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>? ('of' <a href="SysML-textual-bnf.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>)? | <a href="SysML-textual-bnf.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>
 </pre>
 <a id="flow"></a>
 <pre>flow =
@@ -1212,7 +1212,7 @@
 </pre>
 <a id="flow-label"></a>
 <pre>flow-label =
-    <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>? ('of' <a href="SysML-textual-bnf-corrected.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>)? | <a href="SysML-textual-bnf-corrected.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>
+    <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>? ('of' <a href="SysML-textual-bnf.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>)? | <a href="SysML-textual-bnf.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>
 </pre>
 <a id="flow-end-node"></a>
 <pre>flow-end-node =
@@ -1266,7 +1266,7 @@
 </pre>
 <a id="flow-label"></a>
 <pre>flow-label =
-    <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a> | <a href="SysML-textual-bnf-corrected.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>
+    <a href="SysML-textual-bnf.html#Identification">Identification</a> | <a href="SysML-textual-bnf.html#FlowPayloadFeatureMember">FlowPayloadFeatureMember</a>
 </pre>
 <h4><a id="c8.2.3.17"></a>// Clause 8.2.3.17 Actions Graphical Notation</h4>
 <pre>definition-node =| <a href="#action-def">action-def</a>
@@ -1277,7 +1277,7 @@
 </pre>
 <a id="action-def-name-compartment"></a>
 <pre>action-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'action' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'action' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =|
@@ -1290,7 +1290,7 @@
 </pre>
 <a id="action-name-compartment"></a>
 <pre>action-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="perform-action-usage"></a>
@@ -1303,7 +1303,7 @@
 </pre>
 <a id="perform-action-name-compartment"></a>
 <pre>perform-action-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'perform' 'action' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'perform' 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =|
@@ -1322,7 +1322,7 @@
 </pre>
 <a id="actions-compartment-element"></a>
 <pre>actions-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ActionUsageDeclaration">ActionUsageDeclaration</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ActionUsageDeclaration">ActionUsageDeclaration</a>
 </pre>
 <a id="perform-actions-compartment"></a>
 <pre>perform-actions-compartment =
@@ -1334,7 +1334,7 @@
 </pre>
 <a id="perform-actions-compartment-element"></a>
 <pre>perform-actions-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#PerformActionUsageDeclaration">PerformActionUsageDeclaration</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#PerformActionUsageDeclaration">PerformActionUsageDeclaration</a>
 </pre>
 <a id="parameters-compartment"></a>
 <pre>parameters-compartment =
@@ -1346,7 +1346,7 @@
 </pre>
 <a id="parameters-compartment-element"></a>
 <pre>parameters-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#FeatureDirection">FeatureDirection</a> <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a> ValueOrFlowPart? <a href="SysML-textual-bnf-corrected.html#DefinitionBodyItem">DefinitionBodyItem</a>*
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#FeatureDirection">FeatureDirection</a> <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a> ValueOrFlowPart? <a href="SysML-textual-bnf.html#DefinitionBodyItem">DefinitionBodyItem</a>*
 </pre>
 <a id="performed-by-compartment"></a>
 <pre>performed-by-compartment =
@@ -1354,7 +1354,7 @@
       <a href="#performed-by-compartment-contents">performed-by-compartment-contents</a>
 </pre>
 <a id="performed-by-compartment-contents"></a>
-<pre>performed-by-compartment-contents = <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>* '…'?
+<pre>performed-by-compartment-contents = <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>* '…'?
 </pre>
 <a id="action-flow-compartment"></a>
 <pre>action-flow-compartment =
@@ -1429,7 +1429,7 @@
       <a href="#proxy-h">proxy-h</a>
 </pre>
 <a id="param-label"></a>
-<pre>param-label = <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>)*
+<pre>param-label = <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>)*
 </pre>
 <a id="start-node"></a>
 <pre>start-node =
@@ -1465,11 +1465,11 @@
 </pre>
 <a id="send-action-name-compartment"></a>
 <pre>send-action-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'send' 'action' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'send' 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="send-action-expression"></a>
-<pre>send-action-expression = <a href="SysML-textual-bnf-corrected.html#NodeParameterMember">NodeParameterMember</a> 'to' <a href="SysML-textual-bnf-corrected.html#NodeParameterMember">NodeParameterMember</a>
+<pre>send-action-expression = <a href="SysML-textual-bnf.html#NodeParameterMember">NodeParameterMember</a> 'to' <a href="SysML-textual-bnf.html#NodeParameterMember">NodeParameterMember</a>
 </pre>
 <a id="accept-action-node"></a>
 <pre>accept-action-node =
@@ -1477,11 +1477,11 @@
 </pre>
 <a id="accept-action-name-compartment"></a>
 <pre>accept-action-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'accept' 'action' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'accept' 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="accept-action-expression"></a>
-<pre>accept-action-expression = <a href="SysML-textual-bnf-corrected.html#AcceptParameterPart">AcceptParameterPart</a>
+<pre>accept-action-expression = <a href="SysML-textual-bnf.html#AcceptParameterPart">AcceptParameterPart</a>
 </pre>
 <a id="while-loop-action-node"></a>
 <pre>while-loop-action-node =
@@ -1499,7 +1499,7 @@
 </pre>
 <a id="while-loop-action-name-compartment"></a>
 <pre>while-loop-action-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'loop' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'loop' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="for-loop-action-node"></a>
@@ -1518,7 +1518,7 @@
 </pre>
 <a id="for-loop-action-name-compartment"></a>
 <pre>for-loop-action-name-compartment =
-    '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'loop' '»'
+    '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'loop' '»'
     <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="if-else-action-node"></a>
@@ -1542,7 +1542,7 @@
 </pre>
 <a id="ifelse-action-name-compartment"></a>
 <pre>ifelse-action-name-compartment =
-    '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'if' '»'
+    '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'if' '»'
     <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="action-body"></a>
@@ -1551,15 +1551,15 @@
 </pre>
 <a id="condition-expression"></a>
 <pre>condition-expression =
-    <a href="SysML-textual-bnf-corrected.html#ExpressionParameterMember">ExpressionParameterMember</a>
+    <a href="SysML-textual-bnf.html#ExpressionParameterMember">ExpressionParameterMember</a>
 </pre>
 <a id="iteration-expression"></a>
 <pre>iteration-expression =
-    <a href="SysML-textual-bnf-corrected.html#ForVariableDeclarationMember">ForVariableDeclarationMember</a> 'in' <a href="SysML-textual-bnf-corrected.html#NodeParameterMember">NodeParameterMember</a>
+    <a href="SysML-textual-bnf.html#ForVariableDeclarationMember">ForVariableDeclarationMember</a> 'in' <a href="SysML-textual-bnf.html#NodeParameterMember">NodeParameterMember</a>
 </pre>
 <a id="action-body-textual"></a>
 <pre>action-body-textual =
-    <a href="SysML-textual-bnf-corrected.html#ActionBodyParameterMember">ActionBodyParameterMember</a>
+    <a href="SysML-textual-bnf.html#ActionBodyParameterMember">ActionBodyParameterMember</a>
 </pre>
 <a id="assign-action-node"></a>
 <pre>assign-action-node =
@@ -1567,7 +1567,7 @@
 </pre>
 <a id="assign-action-name-compartment"></a>
 <pre>assign-action-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'assign' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'assign' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="perform-actions-swimlanes"></a>
@@ -1599,7 +1599,7 @@
 <pre>usage-edge =| succession <a href="#perform-edge">perform-edge</a>
 </pre>
 <a id="guard-expression"></a>
-<pre>guard-expression = '[' <a href="KerML-textual-bnf-corrected.html#OwnedExpression">OwnedExpression</a> ']'
+<pre>guard-expression = '[' <a href="KerML-textual-bnf.html#OwnedExpression">OwnedExpression</a> ']'
 </pre>
 <p>// Note. All swimlanes are attached to each other on vertical edges and aligned along the top and bottom horizontal edges.
 </p>
@@ -1614,7 +1614,7 @@
 </pre>
 <a id="state-def-name-compartment"></a>
 <pre>state-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'state' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'state' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
       ('«' 'parallel' '»')?
 </pre>
@@ -1632,7 +1632,7 @@
 </pre>
 <a id="state-name-compartment"></a>
 <pre>state-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'state' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'state' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
       ('«' 'parallel' '»')?
 </pre>
@@ -1644,14 +1644,14 @@
 <pre>state-subaction-body = <a href="#state-subaction-body-textual">state-subaction-body-textual</a> | <a href="#action-flow-view">action-flow-view</a>
 </pre>
 <a id="state-subaction-body-textual"></a>
-<pre>state-subaction-body-textual = <a href="#state-subaction-declaration">state-subaction-declaration</a>? ( '{' <a href="SysML-textual-bnf-corrected.html#ActionBodyItem">ActionBodyItem</a>* '}' )?
+<pre>state-subaction-body-textual = <a href="#state-subaction-declaration">state-subaction-declaration</a>? ( '{' <a href="SysML-textual-bnf.html#ActionBodyItem">ActionBodyItem</a>* '}' )?
 </pre>
 <a id="state-subaction-declaration"></a>
 <pre>state-subaction-declaration =
-      <a href="SysML-textual-bnf-corrected.html#PerformActionUsageDeclaration">PerformActionUsageDeclaration</a>
-    | <a href="SysML-textual-bnf-corrected.html#AcceptNodeDeclaration">AcceptNodeDeclaration</a>
-    | <a href="SysML-textual-bnf-corrected.html#SendNodeDeclaration">SendNodeDeclaration</a>
-    | <a href="SysML-textual-bnf-corrected.html#AssignmentNodeDeclaration">AssignmentNodeDeclaration</a>
+      <a href="SysML-textual-bnf.html#PerformActionUsageDeclaration">PerformActionUsageDeclaration</a>
+    | <a href="SysML-textual-bnf.html#AcceptNodeDeclaration">AcceptNodeDeclaration</a>
+    | <a href="SysML-textual-bnf.html#SendNodeDeclaration">SendNodeDeclaration</a>
+    | <a href="SysML-textual-bnf.html#AssignmentNodeDeclaration">AssignmentNodeDeclaration</a>
 </pre>
 <a id="state-do-action"></a>
 <pre>state-do-action =
@@ -1676,7 +1676,7 @@
 </pre>
 <a id="entry-action-name-comp"></a>
 <pre>entry-action-name-comp =
-      '«' 'entry' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
+      '«' 'entry' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="exit-action"></a>
@@ -1685,7 +1685,7 @@
 </pre>
 <a id="exit-action-name-comp"></a>
 <pre>exit-action-name-comp =
-      '«' 'exit' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
+      '«' 'exit' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="do-action"></a>
@@ -1694,7 +1694,7 @@
 </pre>
 <a id="do-action-name-comp"></a>
 <pre>do-action-name-comp =
-      '«' 'do' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
+      '«' 'do' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'action' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="exhibit-state-name-compartment"></a>
@@ -1719,7 +1719,7 @@
 </pre>
 <a id="states-compartment-element"></a>
 <pre>states-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ActionUsageDeclaration">ActionUsageDeclaration</a>
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ActionUsageDeclaration">ActionUsageDeclaration</a>
 </pre>
 <a id="state-actions-compartment"></a>
 <pre>state-actions-compartment =
@@ -1731,7 +1731,7 @@
 </pre>
 <a id="state-actions-compartment-element"></a>
 <pre>state-actions-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#EntryActionMember">EntryActionMember</a> | <a href="SysML-textual-bnf-corrected.html#DoActionMember">DoActionMember</a> | <a href="SysML-textual-bnf-corrected.html#ExitActionMember">ExitActionMember</a>
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#EntryActionMember">EntryActionMember</a> | <a href="SysML-textual-bnf.html#DoActionMember">DoActionMember</a> | <a href="SysML-textual-bnf.html#ExitActionMember">ExitActionMember</a>
 </pre>
 <a id="exhibit-states-compartment"></a>
 <pre>exhibit-states-compartment =
@@ -1742,7 +1742,7 @@
 <pre>exhibit-states-compartment-contents = exhibit-state-scompartment-element* '…'?
 </pre>
 <a id="exhibit-states-compartment-element-compartment"></a>
-<pre>exhibit-states-compartment-element-compartment = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>exhibit-states-compartment-element-compartment = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="successions-compartment"></a>
 <pre>successions-compartment =
@@ -1750,7 +1750,7 @@
       <a href="#successions-compartment-contents">successions-compartment-contents</a>
 </pre>
 <a id="successions-compartment-contents"></a>
-<pre>successions-compartment-contents = <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>* '…'?
+<pre>successions-compartment-contents = <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>* '…'?
 </pre>
 <a id="state-transition-compartment"></a>
 <pre>state-transition-compartment =
@@ -1797,10 +1797,10 @@
    <a href="#state">state</a> | <a href="#state-ref">state-ref</a>
 </pre>
 <a id="transition-label"></a>
-<pre>transition-label = <a href="#trigger-expression">trigger-expression</a> '/' <a href="SysML-textual-bnf-corrected.html#ActionUsage">ActionUsage</a>
+<pre>transition-label = <a href="#trigger-expression">trigger-expression</a> '/' <a href="SysML-textual-bnf.html#ActionUsage">ActionUsage</a>
 </pre>
 <a id="trigger-expression"></a>
-<pre>trigger-expression = <a href="SysML-textual-bnf-corrected.html#AcceptParameterPart">AcceptParameterPart</a> (<a href="#guard-expression">guard-expression</a>)?
+<pre>trigger-expression = <a href="SysML-textual-bnf.html#AcceptParameterPart">AcceptParameterPart</a> (<a href="#guard-expression">guard-expression</a>)?
 </pre>
 <a id="st-succession"></a>
 <pre>st-succession =
@@ -1828,7 +1828,7 @@
 </pre>
 <a id="calc-def-name-compartment"></a>
 <pre>calc-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'calc' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'calc' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#calc">calc</a>
@@ -1839,7 +1839,7 @@
 </pre>
 <a id="calc-name-compartment"></a>
 <pre>calc-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'calc' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'calc' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>action-flow-element =|
@@ -1859,7 +1859,7 @@
 <pre>calcs-compartment-contents = <a href="#calcs-compartment-element">calcs-compartment-element</a>* '…'?
 </pre>
 <a id="calcs-compartment-element"></a>
-<pre>calcs-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ActionUsageDeclaration">ActionUsageDeclaration</a>
+<pre>calcs-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ActionUsageDeclaration">ActionUsageDeclaration</a>
 </pre>
 <a id="result-compartment"></a>
 <pre>result-compartment =
@@ -1867,7 +1867,7 @@
       <a href="#result-compartment-contents">result-compartment-contents</a>
 </pre>
 <a id="result-compartment-contents"></a>
-<pre>result-compartment-contents = <a href="KerML-textual-bnf-corrected.html#OwnedExpression">OwnedExpression</a>
+<pre>result-compartment-contents = <a href="KerML-textual-bnf.html#OwnedExpression">OwnedExpression</a>
 </pre>
 <h4><a id="c8.2.3.20"></a>// Clause 8.2.3.20 Constraints Graphical Notation</h4>
 <pre>definition-node =| <a href="#constraint-def">constraint-def</a>
@@ -1878,7 +1878,7 @@
 </pre>
 <a id="constraint-def-name-compartment"></a>
 <pre>constraint-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'constraint' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'constraint' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <a id="usage-node"></a>
@@ -1896,7 +1896,7 @@
 </pre>
 <a id="constraint-name-compartment"></a>
 <pre>constraint-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'constraint' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'constraint' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="assert-constraint-node"></a>
@@ -1914,7 +1914,7 @@
 </pre>
 <a id="assume-constraint-name-compartment"></a>
 <pre>assume-constraint-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'assume' 'constraint' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'assume' 'constraint' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#assume-constraint-node">assume-constraint-node</a> | <a href="#assert-constraint-node">assert-constraint-node</a>
@@ -1951,7 +1951,7 @@
 </pre>
 <a id="constraints-usage-compartment-element"></a>
 <pre>constraints-usage-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf-corrected.html#CalculationBody">CalculationBody</a>*
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf.html#CalculationBody">CalculationBody</a>*
 </pre>
 <a id="assert-constraints-compartment"></a>
 <pre>assert-constraints-compartment =
@@ -1963,9 +1963,9 @@
 </pre>
 <a id="assert-constraints-compartment-element"></a>
 <pre>assert-constraints-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> ( 'not' )?
-      ( <a href="SysML-textual-bnf-corrected.html#OwnedSubsetting">OwnedSubsetting</a> <a href="SysML-textual-bnf-corrected.html#FeatureSpecializationPart">FeatureSpecializationPart</a>? | <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a> )
-      CalculationUsageParameterPart <a href="SysML-textual-bnf-corrected.html#CalculationBody">CalculationBody</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> ( 'not' )?
+      ( <a href="SysML-textual-bnf.html#OwnedSubsetting">OwnedSubsetting</a> <a href="SysML-textual-bnf.html#FeatureSpecializationPart">FeatureSpecializationPart</a>? | <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a> )
+      CalculationUsageParameterPart <a href="SysML-textual-bnf.html#CalculationBody">CalculationBody</a>
 </pre>
 <pre>interconnection-element =|
       <a href="#constraint-ref">constraint-ref</a>
@@ -1982,7 +1982,7 @@
 </pre>
 <a id="requirement-def-name-compartment"></a>
 <pre>requirement-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'requirement' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'requirement' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <a id="usage-node"></a>
@@ -2001,7 +2001,7 @@
 </pre>
 <a id="requirement-name-compartment"></a>
 <pre>requirement-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'requirement' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'requirement' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="satisfy-requirement-usage"></a>
@@ -2019,7 +2019,7 @@
 </pre>
 <a id="concern-def-name-compartment"></a>
 <pre>concern-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'concern' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'concern' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <a id="concern"></a>
@@ -2028,7 +2028,7 @@
 </pre>
 <a id="concern-name-compartment"></a>
 <pre>concern-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'concern' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'concern' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =|
@@ -2056,7 +2056,7 @@
 </pre>
 <a id="requirements-compartment-element"></a>
 <pre>requirements-compartment-element =
-    <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a>
+    <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a>
 </pre>
 <a id="require-constraints-compartment"></a>
 <pre>require-constraints-compartment =
@@ -2068,7 +2068,7 @@
 </pre>
 <a id="require-constraint-element"></a>
 <pre>require-constraint-element =
-    <a href="#el-prefix">el-prefix</a>? requireMemberPrefix? <a href="SysML-textual-bnf-corrected.html#RequirementConstraintUsage">RequirementConstraintUsage</a>
+    <a href="#el-prefix">el-prefix</a>? requireMemberPrefix? <a href="SysML-textual-bnf.html#RequirementConstraintUsage">RequirementConstraintUsage</a>
 </pre>
 <a id="assume-constraints-compartment"></a>
 <pre>assume-constraints-compartment =
@@ -2092,7 +2092,7 @@
       <a href="#satisfies-compartment-contents">satisfies-compartment-contents</a>
 </pre>
 <a id="satisfies-compartment-contents"></a>
-<pre>satisfies-compartment-contents = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>* '…'?
+<pre>satisfies-compartment-contents = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>* '…'?
 </pre>
 <a id="actors-compartment"></a>
 <pre>actors-compartment =
@@ -2103,7 +2103,7 @@
 <pre>actors-compartment-contents = (<a href="#actors-compartment-element">actors-compartment-element</a>)* '…'?
 </pre>
 <a id="actors-compartment-element"></a>
-<pre>actors-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>actors-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <a id="subject-compartment"></a>
 <pre>subject-compartment =
@@ -2114,7 +2114,7 @@
 <pre>subject-compartment-contents = (<a href="#subject-compartment-element">subject-compartment-element</a>)* '…'?
 </pre>
 <a id="subject-compartment-element"></a>
-<pre>subject-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>subject-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <a id="stakeholders-compartment"></a>
 <pre>stakeholders-compartment =
@@ -2125,7 +2125,7 @@
 <pre>stakeholders-compartment-contents = (<a href="#stakeholders-compartment-element">stakeholders-compartment-element</a>)* '…'?
 </pre>
 <a id="stakeholders-compartment-element"></a>
-<pre>stakeholders-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a> <a href="#usage-cp">usage-cp</a>
+<pre>stakeholders-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a> <a href="#usage-cp">usage-cp</a>
 </pre>
 <a id="frames-compartment"></a>
 <pre>frames-compartment =
@@ -2136,7 +2136,7 @@
 <pre>frames-compartment-contents = (<a href="#frames-compartment-element">frames-compartment-element</a>)* '…'?
 </pre>
 <a id="frames-compartment-element"></a>
-<pre>frames-compartment-element = <a href="#el-prefix">el-prefix</a>* <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a>? <a href="SysML-textual-bnf-corrected.html#FramedConcernUsage">FramedConcernUsage</a>
+<pre>frames-compartment-element = <a href="#el-prefix">el-prefix</a>* <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a>? <a href="SysML-textual-bnf.html#FramedConcernUsage">FramedConcernUsage</a>
 </pre>
 <a id="concerns-compartment"></a>
 <pre>concerns-compartment =
@@ -2176,13 +2176,13 @@
        <img src="images/stakeholder.svg" width="178.07999999999998">
 </pre>
 <a id="subject-name"></a>
-<pre>subject-name = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>subject-name = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="actor-name"></a>
-<pre>actor-name = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>actor-name = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="stakeholder-name"></a>
-<pre>stakeholder-name = <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>
+<pre>stakeholder-name = <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>
 </pre>
 <a id="distinguished-parameter-link"></a>
 <pre>distinguished-parameter-link =
@@ -2220,7 +2220,7 @@
 </pre>
 <a id="require-constraint-name-compartment"></a>
 <pre>require-constraint-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'require' 'constraint' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'require' 'constraint' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#require-constraint-node">require-constraint-node</a>
@@ -2231,7 +2231,7 @@
 </pre>
 <a id="frame-concern-name-compartment"></a>
 <pre>frame-concern-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'frame' 'concern' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'frame' 'concern' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#frame-concern-node">frame-concern-node</a>
@@ -2258,7 +2258,7 @@
 </pre>
 <a id="objective-compartment-element"></a>
 <pre>objective-compartment-element =
-      comp-prefix? <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf-corrected.html#RequirementBody">RequirementBody</a>
+      comp-prefix? <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf.html#RequirementBody">RequirementBody</a>
 </pre>
 <h4><a id="c8.2.3.23"></a>// Clause 8.2.3.23 Analysis Cases Graphical Notation</h4>
 <pre>definition-node =| <a href="#analysis-def">analysis-def</a>
@@ -2269,7 +2269,7 @@
 </pre>
 <a id="analysis-def-name-compartment"></a>
 <pre>analysis-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'analysis' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'analysis' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#analysis">analysis</a>
@@ -2280,7 +2280,7 @@
 </pre>
 <a id="analysis-name-compartment"></a>
 <pre>analysis-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'analysis' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'analysis' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =| <a href="#analyses-compartment">analyses-compartment</a>
@@ -2295,7 +2295,7 @@
 </pre>
 <a id="analyses-compartment-element"></a>
 <pre>analyses-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf-corrected.html#CaseBody">CaseBody</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf.html#CaseBody">CaseBody</a>
 </pre>
 <pre>action-flow-element =|
       <a href="#analysis-def">analysis-def</a>
@@ -2312,7 +2312,7 @@
 </pre>
 <a id="verification-def-name-compartment"></a>
 <pre>verification-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'verification' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'verification' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#verification">verification</a>
@@ -2323,7 +2323,7 @@
 </pre>
 <a id="verification-name-compartment"></a>
 <pre>verification-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'verification' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'verification' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="verify-requirement-node"></a>
@@ -2332,7 +2332,7 @@
 </pre>
 <a id="verify-requirement-name-compartment"></a>
 <pre>verify-requirement-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'verify' 'requirement' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'verify' 'requirement' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>usage-node =| <a href="#verify-requirement-node">verify-requirement-node</a>
@@ -2352,7 +2352,7 @@
 </pre>
 <a id="verifications-compartment-element"></a>
 <pre>verifications-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf-corrected.html#CaseBody">CaseBody</a> '…'
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf.html#CaseBody">CaseBody</a> '…'
 </pre>
 <a id="verifies-compartment"></a>
 <pre>verifies-compartment =
@@ -2363,7 +2363,7 @@
 <pre>verifies-compartment-contents = (<a href="#verifies-compartment-element">verifies-compartment-element</a>)* '…'?
 </pre>
 <a id="verifies-compartment-element"></a>
-<pre>verifies-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a> <a href="SysML-textual-bnf-corrected.html#RequirementVerificationUsage">RequirementVerificationUsage</a> '…'
+<pre>verifies-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a> <a href="SysML-textual-bnf.html#RequirementVerificationUsage">RequirementVerificationUsage</a> '…'
 </pre>
 <a id="verification-methods-compartment"></a>
 <pre>verification-methods-compartment =
@@ -2374,7 +2374,7 @@
 <pre>verification-methods-compartment-contents = (<a href="#verification-methods-compartment-element">verification-methods-compartment-element</a>)* '…'?
 </pre>
 <a id="verification-methods-compartment-element"></a>
-<pre>verification-methods-compartment-element = <a href="SysML-textual-bnf-corrected.html#MetadataBody">MetadataBody</a>
+<pre>verification-methods-compartment-element = <a href="SysML-textual-bnf.html#MetadataBody">MetadataBody</a>
 </pre>
 <pre>action-flow-element =|
       <a href="#verification-def">verification-def</a>
@@ -2397,7 +2397,7 @@
 </pre>
 <a id="use-case-def-name-compartment"></a>
 <pre>use-case-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'use' 'case' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'use' 'case' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =|
@@ -2410,7 +2410,7 @@
 </pre>
 <a id="use-case-name-compartment"></a>
 <pre>use-case-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'use' 'case' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'use' 'case' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="include-use-case-usage"></a>
@@ -2436,7 +2436,7 @@
 <pre>use-cases-compartment-contents = <a href="#use-cases-compartment-element">use-cases-compartment-element</a>* '…'?
 </pre>
 <a id="use-cases-compartment-element"></a>
-<pre>use-cases-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a>
+<pre>use-cases-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a>
 </pre>
 <a id="include-use-cases-compartment"></a>
 <pre>include-use-cases-compartment =
@@ -2448,9 +2448,9 @@
 </pre>
 <a id="include-use-cases-compartment-element"></a>
 <pre>include-use-cases-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a>
-      ( <a href="SysML-textual-bnf-corrected.html#OwnedSubsetting">OwnedSubsetting</a> <a href="SysML-textual-bnf-corrected.html#FeatureSpecializationPart">FeatureSpecializationPart</a>? | <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a> )
-      ( <a href="SysML-textual-bnf-corrected.html#ValuePart">ValuePart</a> | ActionUsageParameterList )? <a href="SysML-textual-bnf-corrected.html#CaseBody">CaseBody</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a>
+      ( <a href="SysML-textual-bnf.html#OwnedSubsetting">OwnedSubsetting</a> <a href="SysML-textual-bnf.html#FeatureSpecializationPart">FeatureSpecializationPart</a>? | <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a> )
+      ( <a href="SysML-textual-bnf.html#ValuePart">ValuePart</a> | ActionUsageParameterList )? <a href="SysML-textual-bnf.html#CaseBody">CaseBody</a>
 </pre>
 <a id="includes-compartment"></a>
 <pre>includes-compartment =
@@ -2462,8 +2462,8 @@
 </pre>
 <a id="includes-compartment-element"></a>
 <pre>includes-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a>
-    ( <a href="SysML-textual-bnf-corrected.html#OwnedSubsetting">OwnedSubsetting</a> <a href="SysML-textual-bnf-corrected.html#FeatureSpecializationPart">FeatureSpecializationPart</a>? | <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a> )
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a>
+    ( <a href="SysML-textual-bnf.html#OwnedSubsetting">OwnedSubsetting</a> <a href="SysML-textual-bnf.html#FeatureSpecializationPart">FeatureSpecializationPart</a>? | <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a> )
 </pre>
 <pre>action-flow-element =|
        <a href="#use-case-def">use-case-def</a>
@@ -2492,7 +2492,7 @@
 </pre>
 <a id="viewpoint-def-name-compartment"></a>
 <pre>viewpoint-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'viewpoint' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'viewpoint' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <a id="view-def"></a>
@@ -2501,7 +2501,7 @@
 </pre>
 <a id="view-def-name-compartment"></a>
 <pre>view-def-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#DefinitionPrefix">DefinitionPrefix</a> 'view' 'def' '»'
+      '«' <a href="SysML-textual-bnf.html#DefinitionPrefix">DefinitionPrefix</a> 'view' 'def' '»'
       <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <pre>usage-node =|
@@ -2515,7 +2515,7 @@
 </pre>
 <a id="viewpoint-name-compartment"></a>
 <pre>viewpoint-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'viewpoint' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'viewpoint' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <a id="view"></a>
@@ -2524,7 +2524,7 @@
 </pre>
 <a id="view-name-compartment"></a>
 <pre>view-name-compartment =
-      '«' <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'view' '»'
+      '«' <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> 'view' '»'
       <a href="#usage-name-with-alias">usage-name-with-alias</a>
 </pre>
 <pre>compartment =|
@@ -2544,7 +2544,7 @@
 </pre>
 <a id="views-compartment-element"></a>
 <pre>views-compartment-element =
-      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#UsageDeclaration">UsageDeclaration</a>? ValueOrFlowPart? <a href="SysML-textual-bnf-corrected.html#ViewBody">ViewBody</a>
+      <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#UsageDeclaration">UsageDeclaration</a>? ValueOrFlowPart? <a href="SysML-textual-bnf.html#ViewBody">ViewBody</a>
 </pre>
 <a id="viewpoints-compartment"></a>
 <pre>viewpoints-compartment =
@@ -2556,7 +2556,7 @@
 </pre>
 <a id="viewpoints-compartment-element"></a>
 <pre>viewpoints-compartment-element =
-    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf-corrected.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf-corrected.html#RequirementBody">RequirementBody</a>
+    <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#OccurrenceUsagePrefix">OccurrenceUsagePrefix</a> <a href="SysML-textual-bnf.html#ConstraintUsageDeclaration">ConstraintUsageDeclaration</a> <a href="SysML-textual-bnf.html#RequirementBody">RequirementBody</a>
 </pre>
 <a id="exposes-compartment"></a>
 <pre>exposes-compartment =
@@ -2567,7 +2567,7 @@
 <pre>exposes-compartment-contents = <a href="#exposes-compartment-element">exposes-compartment-element</a>* '…'?
 </pre>
 <a id="exposes-compartment-element"></a>
-<pre>exposes-compartment-element = <a href="SysML-textual-bnf-corrected.html#MembershipExpose">MembershipExpose</a> | <a href="SysML-textual-bnf-corrected.html#NamespaceExpose">NamespaceExpose</a>
+<pre>exposes-compartment-element = <a href="SysML-textual-bnf.html#MembershipExpose">MembershipExpose</a> | <a href="SysML-textual-bnf.html#NamespaceExpose">NamespaceExpose</a>
 </pre>
 <a id="filters-compartment"></a>
 <pre>filters-compartment =
@@ -2578,7 +2578,7 @@
 <pre>filters-compartment-contents = (<a href="#filters-compartment-element">filters-compartment-element</a>)* '…'?
 </pre>
 <a id="filters-compartment-element"></a>
-<pre>filters-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf-corrected.html#MemberPrefix">MemberPrefix</a> <a href="KerML-textual-bnf-corrected.html#OwnedExpression">OwnedExpression</a>
+<pre>filters-compartment-element = <a href="#el-prefix">el-prefix</a>? <a href="SysML-textual-bnf.html#MemberPrefix">MemberPrefix</a> <a href="KerML-textual-bnf.html#OwnedExpression">OwnedExpression</a>
 </pre>
 <a id="rendering-compartment"></a>
 <pre>rendering-compartment =
@@ -2607,10 +2607,10 @@
     | <a href="#sequence-view">sequence-view</a>
 </pre>
 <a id="view-frame-name-compartment"></a>
-<pre>view-frame-name-compartment = '«view»' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf-corrected.html#QualifiedName">QualifiedName</a>)?
+<pre>view-frame-name-compartment = '«view»' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a> (':' <a href="KerML-textual-bnf.html#QualifiedName">QualifiedName</a>)?
 </pre>
 <a id="view-frame-info-contents"></a>
-<pre>view-frame-info-contents = <a href="SysML-textual-bnf-corrected.html#Expose">Expose</a>? <a href="SysML-textual-bnf-corrected.html#ElementFilterMember">ElementFilterMember</a>? <a href="SysML-textual-bnf-corrected.html#AnnotatingElement">AnnotatingElement</a>*
+<pre>view-frame-info-contents = <a href="SysML-textual-bnf.html#Expose">Expose</a>? <a href="SysML-textual-bnf.html#ElementFilterMember">ElementFilterMember</a>? <a href="SysML-textual-bnf.html#AnnotatingElement">AnnotatingElement</a>*
 </pre>
 <a id="view-frame-info-compartment-tr"></a>
 <pre>view-frame-info-compartment-tr =
@@ -2654,14 +2654,14 @@
     <img src="images/metadata-feature-annotation-node.svg" width="325.91997">
 </pre>
 <a id="metadata-feature-decl"></a>
-<pre>metadata-feature-decl = <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
+<pre>metadata-feature-decl = <a href="SysML-textual-bnf.html#Identification">Identification</a>
 </pre>
 <a id="metadata-feature-name-value-list"></a>
 <pre>metadata-feature-name-value-list =
     ( <a href="#metadata-feature-name">metadata-feature-name</a> '=' <a href="#expression-text">expression-text</a> )*
 </pre>
 <a id="metadata-feature-name"></a>
-<pre>metadata-feature-name = <a href="SysML-textual-bnf-corrected.html#Identification">Identification</a>
+<pre>metadata-feature-name = <a href="SysML-textual-bnf.html#Identification">Identification</a>
 </pre>
 <a id="expression-text"></a>
 <pre>expression-text = <a href="#text-block">text-block</a>
@@ -2672,7 +2672,7 @@
 </pre>
 <a id="metadata-def-name-compartment"></a>
 <pre>metadata-def-name-compartment =
-    '«' <a href="SysML-textual-bnf-corrected.html#BasicUsagePrefix">BasicUsagePrefix</a>? keyword* 'metadata' 'def' '»'
+    '«' <a href="SysML-textual-bnf.html#BasicUsagePrefix">BasicUsagePrefix</a>? keyword* 'metadata' 'def' '»'
     <a href="#definition-name-with-alias">definition-name-with-alias</a>
 </pre>
 <p>// End of BNF<br>
