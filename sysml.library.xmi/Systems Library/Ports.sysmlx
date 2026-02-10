@@ -20,7 +20,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="6bc85b8b-cb1a-5d03-a138-7098cf235694" elementId="6bc85b8b-cb1a-5d03-a138-7098cf235694" body="Port is the most general class of objects that represent connection points&#xA;for interacting with a Part. Port is the base type of all PortDefinitions.&#xA;&#xA;Transfers outgoing from a Port are always targeted to a Port connected to&#xA;the original Port by an Interface.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="483e4d4f-b8b0-50b2-acfa-807fde78fa1b" elementId="483e4d4f-b8b0-50b2-acfa-807fde78fa1b">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5c207f49-9e30-5f38-ba42-d76faa2d8218" elementId="5c207f49-9e30-5f38-ba42-d76faa2d8218" declaredName="self" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5c207f49-9e30-5f38-ba42-d76faa2d8218" elementId="5c207f49-9e30-5f38-ba42-d76faa2d8218" declaredName="self">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="f5fe0e16-5b14-5a75-a723-f2e0b6e04e80" elementId="f5fe0e16-5b14-5a75-a723-f2e0b6e04e80" typedFeature="5c207f49-9e30-5f38-ba42-d76faa2d8218" type="331276d2-3064-5f35-8685-0a0423aaf3fb"/>
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="90d5741b-bdf7-54ed-b4ee-402b8c4c4243" elementId="90d5741b-bdf7-54ed-b4ee-402b8c4c4243" redefiningFeature="5c207f49-9e30-5f38-ba42-d76faa2d8218">
                 <redefinedFeature href="../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#6b641ff0-58ce-5ed5-87bb-68abcc821a78"/>
@@ -69,7 +69,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="b4ec7922-ed3f-58e5-bc8c-07c88d575f2c" elementId="b4ec7922-ed3f-58e5-bc8c-07c88d575f2c">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="227d950f-3392-5d76-abcf-6fbe92fbe096" elementId="227d950f-3392-5d76-abcf-6fbe92fbe096" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="227d950f-3392-5d76-abcf-6fbe92fbe096" elementId="227d950f-3392-5d76-abcf-6fbe92fbe096">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="a9f607c7-1bb1-5dc9-a396-d3cf47dabed9" elementId="a9f607c7-1bb1-5dc9-a396-d3cf47dabed9" redefiningFeature="227d950f-3392-5d76-abcf-6fbe92fbe096">
                 <redefinedFeature href="../Kernel%20Libraries/Kernel%20Semantic%20Library/Occurrences.kermlx#87ed453a-3c8d-50cc-93d9-f9d9ad7817a6"/>
               </ownedRelationship>
@@ -85,14 +85,14 @@
                 <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="689a6bb8-8fe2-5833-a569-efad15055ff5" elementId="689a6bb8-8fe2-5833-a569-efad15055ff5" body="The target of each of the outgoingTransfersFromSelf of a Port must be an interfacingPort.&#xA;"/>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="1d8b9295-8dcb-5128-abe4-8baff5c605f4" elementId="1d8b9295-8dcb-5128-abe4-8baff5c605f4">
-                <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="e673c4db-a194-5e21-b54b-fdeeba634a22" elementId="e673c4db-a194-5e21-b54b-fdeeba634a22" declaredName="source" isComposite="false" isEnd="true" isConstant="true">
+                <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="e673c4db-a194-5e21-b54b-fdeeba634a22" elementId="e673c4db-a194-5e21-b54b-fdeeba634a22" declaredName="source" isEnd="true" isConstant="true">
                   <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="59324bb7-2582-53d1-8434-d899a03025fb" elementId="59324bb7-2582-53d1-8434-d899a03025fb">
                     <ownedRelatedElement xsi:type="sysml:Multiplicity" xmi:id="8e01cbba-9aff-56ca-a6b5-621406169ca1" elementId="8e01cbba-9aff-56ca-a6b5-621406169ca1"/>
                   </ownedRelationship>
                 </ownedRelatedElement>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="85efc21c-fedb-5ce8-a573-2ed81918c001" elementId="85efc21c-fedb-5ce8-a573-2ed81918c001">
-                <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="1bba1953-5ea9-55a2-8652-ca0e2c4bf2e8" elementId="1bba1953-5ea9-55a2-8652-ca0e2c4bf2e8" declaredName="target" isComposite="false" isEnd="true" isConstant="true">
+                <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="1bba1953-5ea9-55a2-8652-ca0e2c4bf2e8" elementId="1bba1953-5ea9-55a2-8652-ca0e2c4bf2e8" declaredName="target" isEnd="true" isConstant="true">
                   <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="f5034132-1bfe-55c7-8f70-9a721587f64f" elementId="f5034132-1bfe-55c7-8f70-9a721587f64f">
                     <ownedRelatedElement xsi:type="sysml:Multiplicity" xmi:id="30b6b35e-67a6-5f3a-a9ff-9cc2f28b8573" elementId="30b6b35e-67a6-5f3a-a9ff-9cc2f28b8573"/>
                   </ownedRelationship>
@@ -108,7 +108,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="086f6fc3-ee09-58fe-945b-2b42d6242868" elementId="086f6fc3-ee09-58fe-945b-2b42d6242868">
-        <ownedRelatedElement xsi:type="sysml:PortUsage" xmi:id="8a89543d-f07a-51e9-b0ab-427f717bfa8a" elementId="8a89543d-f07a-51e9-b0ab-427f717bfa8a" declaredName="ports" isAbstract="true" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:PortUsage" xmi:id="8a89543d-f07a-51e9-b0ab-427f717bfa8a" elementId="8a89543d-f07a-51e9-b0ab-427f717bfa8a" declaredName="ports" isAbstract="true" isUnique="false">
           <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="5f0802b5-b31c-54fe-b814-321666f866c9" elementId="5f0802b5-b31c-54fe-b814-321666f866c9" typedFeature="8a89543d-f07a-51e9-b0ab-427f717bfa8a" type="331276d2-3064-5f35-8685-0a0423aaf3fb"/>
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="82d828e0-502e-5a32-ae1b-ad848006d1c1" elementId="82d828e0-502e-5a32-ae1b-ad848006d1c1">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="67a5a2f6-6371-52fe-9c6f-03608b93439c" elementId="67a5a2f6-6371-52fe-9c6f-03608b93439c">

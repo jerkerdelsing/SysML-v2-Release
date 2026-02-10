@@ -86,7 +86,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="773f1646-ad2a-5955-8c8c-68051c1e3e46" elementId="773f1646-ad2a-5955-8c8c-68051c1e3e46">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="182115fc-834f-5f6a-bab2-d93e7d79281d" elementId="182115fc-834f-5f6a-bab2-d93e7d79281d" declaredName="coordinateFrame" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="182115fc-834f-5f6a-bab2-d93e7d79281d" elementId="182115fc-834f-5f6a-bab2-d93e7d79281d" declaredName="coordinateFrame">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="e27c2185-40c7-5af5-a76f-18d32bf2f754" elementId="e27c2185-40c7-5af5-a76f-18d32bf2f754" typedFeature="182115fc-834f-5f6a-bab2-d93e7d79281d">
                 <type href="../Quantities%20and%20Units/MeasurementReferences.sysmlx#afc8082b-c024-5ed5-9338-45fcd5bda1d2"/>
               </ownedRelationship>
@@ -303,10 +303,10 @@
                 </ownedRelatedElement>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="857c1a1c-aef8-5d97-a079-c254d3a0c91f" elementId="857c1a1c-aef8-5d97-a079-c254d3a0c91f">
-                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="8022a763-12a6-5065-ad92-eeff16df8d6b" elementId="8022a763-12a6-5065-ad92-eeff16df8d6b" isComposite="false">
+                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="8022a763-12a6-5065-ad92-eeff16df8d6b" elementId="8022a763-12a6-5065-ad92-eeff16df8d6b">
                   <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="f0243b4a-d842-5796-8983-e663f8d9f533" elementId="f0243b4a-d842-5796-8983-e663f8d9f533" redefiningFeature="8022a763-12a6-5065-ad92-eeff16df8d6b" redefinedFeature="182115fc-834f-5f6a-bab2-d93e7d79281d"/>
                   <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="3f6d1034-7f6f-5a16-bef7-58e4ae44bef5" elementId="3f6d1034-7f6f-5a16-bef7-58e4ae44bef5">
-                    <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="a16e43ee-8f00-5e52-8052-59b1e81eb8b0" elementId="a16e43ee-8f00-5e52-8052-59b1e81eb8b0" isComposite="false">
+                    <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="a16e43ee-8f00-5e52-8052-59b1e81eb8b0" elementId="a16e43ee-8f00-5e52-8052-59b1e81eb8b0">
                       <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="a1dbaf4f-f2c1-5402-94a8-989de538bb7f" elementId="a1dbaf4f-f2c1-5402-94a8-989de538bb7f" redefiningFeature="a16e43ee-8f00-5e52-8052-59b1e81eb8b0">
                         <redefinedFeature href="../Quantities%20and%20Units/MeasurementReferences.sysmlx#c3c24e7f-3ba5-546a-9e9d-1881b605603a"/>
                       </ownedRelationship>
@@ -375,7 +375,7 @@
                     </ownedRelatedElement>
                   </ownedRelationship>
                   <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="42e49c83-c199-54e1-a2f4-6e42811d95e7" elementId="42e49c83-c199-54e1-a2f4-6e42811d95e7">
-                    <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="00a17601-78ec-5632-9403-550d49aa857a" elementId="00a17601-78ec-5632-9403-550d49aa857a" isComposite="false">
+                    <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="00a17601-78ec-5632-9403-550d49aa857a" elementId="00a17601-78ec-5632-9403-550d49aa857a">
                       <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="bc414a17-5c8b-5f21-99fa-8d49ae504015" elementId="bc414a17-5c8b-5f21-99fa-8d49ae504015" redefiningFeature="00a17601-78ec-5632-9403-550d49aa857a">
                         <redefinedFeature href="../Quantities%20and%20Units/MeasurementReferences.sysmlx#2cb0dac2-d449-571c-8348-33884c26e54b"/>
                       </ownedRelationship>
@@ -397,7 +397,7 @@
                         </ownedRelatedElement>
                       </ownedRelationship>
                       <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="8bf25b40-d4e3-58e0-bca4-a95fcf5c0068" elementId="8bf25b40-d4e3-58e0-bca4-a95fcf5c0068">
-                        <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="5b0f3373-f1fc-5f34-8262-03e71a549cb4" elementId="5b0f3373-f1fc-5f34-8262-03e71a549cb4" isComposite="false">
+                        <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="5b0f3373-f1fc-5f34-8262-03e71a549cb4" elementId="5b0f3373-f1fc-5f34-8262-03e71a549cb4">
                           <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="fbd4abdc-d899-5d21-9eba-7c148a232997" elementId="fbd4abdc-d899-5d21-9eba-7c148a232997" redefiningFeature="5b0f3373-f1fc-5f34-8262-03e71a549cb4">
                             <redefinedFeature href="../Quantities%20and%20Units/MeasurementReferences.sysmlx#7ec46ff1-512d-50e0-91fa-45c41b3c7f81"/>
                           </ownedRelationship>
@@ -472,7 +472,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="983f7180-fe6d-5c6e-b939-7f7c08382d48" elementId="983f7180-fe6d-5c6e-b939-7f7c08382d48" visibility="private">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="f0e48d1d-a3fe-5a67-99f1-26e76c720775" elementId="f0e48d1d-a3fe-5a67-99f1-26e76c720775" declaredName="cunionNum" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="f0e48d1d-a3fe-5a67-99f1-26e76c720775" elementId="f0e48d1d-a3fe-5a67-99f1-26e76c720775" declaredName="cunionNum">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="ef612814-3fa0-5a65-9eb9-e3f394cdec5f" elementId="ef612814-3fa0-5a65-9eb9-e3f394cdec5f" typedFeature="f0e48d1d-a3fe-5a67-99f1-26e76c720775">
                 <type href="../../Kernel%20Libraries/Kernel%20Data%20Type%20Library/ScalarValues.kermlx#34b2d27c-06f3-5ca6-b3a4-09d5b63787b1"/>
               </ownedRelationship>
@@ -547,7 +547,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="77394fc8-8558-5ccd-93af-8cc37372cd56" elementId="77394fc8-8558-5ccd-93af-8cc37372cd56" visibility="private">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="a775d8cf-4dfa-576d-aa05-84afa0fdd47d" elementId="a775d8cf-4dfa-576d-aa05-84afa0fdd47d" declaredName="componentUnion" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="a775d8cf-4dfa-576d-aa05-84afa0fdd47d" elementId="a775d8cf-4dfa-576d-aa05-84afa0fdd47d" declaredName="componentUnion">
               <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="d7518974-8088-5dc4-9e61-18b1ed1de6e6" elementId="d7518974-8088-5dc4-9e61-18b1ed1de6e6">
                 <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="45e960ae-5406-535b-89e8-9ab9ec3c8e1c" elementId="45e960ae-5406-535b-89e8-9ab9ec3c8e1c">
                   <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="7b1a8905-2548-5731-acda-a8eb828f06fd" elementId="7b1a8905-2548-5731-acda-a8eb828f06fd">
@@ -632,7 +632,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="8a2bcc73-4c26-575a-96b7-453fd22b00cc" elementId="8a2bcc73-4c26-575a-96b7-453fd22b00cc" body="The PositionOf a Point relative to a SpatialItem, at a specific TimeInstantValue relative to a given Clock,&#xA;is a positionVector that is a VectorQuantityValue in the coordinateFrame of the SpatialItem.&#xA;The default Clock is the localClock of the SpatialItem.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="c486f73a-8fc5-516d-a5a6-b5297f7610d5" elementId="c486f73a-8fc5-516d-a5a6-b5297f7610d5">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="69d03c67-9e5a-5c5a-9c89-b98b8ede88fd" elementId="69d03c67-9e5a-5c5a-9c89-b98b8ede88fd" declaredName="point" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="69d03c67-9e5a-5c5a-9c89-b98b8ede88fd" elementId="69d03c67-9e5a-5c5a-9c89-b98b8ede88fd" declaredName="point" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="5f62716c-4059-5b08-a844-2602a5d4d13d" elementId="5f62716c-4059-5b08-a844-2602a5d4d13d" typedFeature="69d03c67-9e5a-5c5a-9c89-b98b8ede88fd">
                 <type href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#69c5668c-b6a2-5883-b944-d4aa20de8103"/>
               </ownedRelationship>
@@ -646,7 +646,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="014cdff8-f836-509a-a476-b43a7bbb9fac" elementId="014cdff8-f836-509a-a476-b43a7bbb9fac">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5d749de1-c1d2-5602-969b-83609a1564eb" elementId="5d749de1-c1d2-5602-969b-83609a1564eb" declaredName="timeInstant" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5d749de1-c1d2-5602-969b-83609a1564eb" elementId="5d749de1-c1d2-5602-969b-83609a1564eb" declaredName="timeInstant" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="9188e628-3f72-5770-8d96-9bdb098c1f27" elementId="9188e628-3f72-5770-8d96-9bdb098c1f27" typedFeature="5d749de1-c1d2-5602-969b-83609a1564eb">
                 <type href="../Quantities%20and%20Units/Time.sysmlx#7d3887d6-118e-50c0-bbed-5ac6eceb288d"/>
               </ownedRelationship>
@@ -660,7 +660,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="1d1f7be6-1a1f-5887-af1f-5fcb8037f6c4" elementId="1d1f7be6-1a1f-5887-af1f-5fcb8037f6c4">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="6a5d689b-bea8-55f6-9f2c-d02c98c0180c" elementId="6a5d689b-bea8-55f6-9f2c-d02c98c0180c" declaredName="enclosingItem" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="6a5d689b-bea8-55f6-9f2c-d02c98c0180c" elementId="6a5d689b-bea8-55f6-9f2c-d02c98c0180c" declaredName="enclosingItem" direction="in">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="4c68cd66-c0f5-5831-ba08-ae09fa9db1e8" elementId="4c68cd66-c0f5-5831-ba08-ae09fa9db1e8" redefiningFeature="6a5d689b-bea8-55f6-9f2c-d02c98c0180c">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/SpatialFrames.kermlx#39b07996-4af8-5567-abe3-8904b5c8c061"/>
               </ownedRelationship>
@@ -675,7 +675,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="ae5b2685-9445-5e9f-a50a-fb821fa76056" elementId="ae5b2685-9445-5e9f-a50a-fb821fa76056">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="473b6678-cde0-59aa-8182-195b5b1cb210" elementId="473b6678-cde0-59aa-8182-195b5b1cb210" declaredName="clock" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="473b6678-cde0-59aa-8182-195b5b1cb210" elementId="473b6678-cde0-59aa-8182-195b5b1cb210" declaredName="clock" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="48bbe17a-b8d6-5abc-8df8-8a647b0f6367" elementId="48bbe17a-b8d6-5abc-8df8-8a647b0f6367" typedFeature="473b6678-cde0-59aa-8182-195b5b1cb210">
                 <type href="../Quantities%20and%20Units/Time.sysmlx#e240778a-cfc4-58ea-9551-a99968e87c22"/>
               </ownedRelationship>
@@ -712,7 +712,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:ReturnParameterMembership" xmi:id="e60a856c-6ef3-537b-93d0-e6bfc9b8f215" elementId="e60a856c-6ef3-537b-93d0-e6bfc9b8f215">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5397985d-fffe-5ce2-b79f-ca8013eb3d7d" elementId="5397985d-fffe-5ce2-b79f-ca8013eb3d7d" declaredName="positionVector" isComposite="false" direction="out">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5397985d-fffe-5ce2-b79f-ca8013eb3d7d" elementId="5397985d-fffe-5ce2-b79f-ca8013eb3d7d" declaredName="positionVector" direction="out">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="360940f7-41bf-5658-bcdc-ac04a134cd52" elementId="360940f7-41bf-5658-bcdc-ac04a134cd52" typedFeature="5397985d-fffe-5ce2-b79f-ca8013eb3d7d">
                 <type href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#d3e15e7d-3c4a-5b5b-9136-dbfcd8703aa0"/>
               </ownedRelationship>
@@ -724,7 +724,7 @@
                 </ownedRelatedElement>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="16204e71-528b-5173-86c2-fa9a7d35701d" elementId="16204e71-528b-5173-86c2-fa9a7d35701d">
-                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="f665aa20-6ba6-5346-98fc-d6aa67f80e61" elementId="f665aa20-6ba6-5346-98fc-d6aa67f80e61" isComposite="false">
+                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="f665aa20-6ba6-5346-98fc-d6aa67f80e61" elementId="f665aa20-6ba6-5346-98fc-d6aa67f80e61">
                   <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="136f6358-9a6d-5a1e-a34a-82101961ff76" elementId="136f6358-9a6d-5a1e-a34a-82101961ff76" redefiningFeature="f665aa20-6ba6-5346-98fc-d6aa67f80e61">
                     <redefinedFeature href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#4f490315-44b1-5faa-9cf2-b531418311ff"/>
                   </ownedRelationship>
@@ -766,7 +766,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="5b5d98a4-b41d-5efe-b193-b4d919452b3e" elementId="5b5d98a4-b41d-5efe-b193-b4d919452b3e" body="The CurrentPositionOf a Point relative to a SpatialItem and a Clock is the PositionOf&#xA;the Point relative to the SpatialItem at the currentTime of the Clock.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="736c973d-a12a-508a-8097-60f9ff6c81fa" elementId="736c973d-a12a-508a-8097-60f9ff6c81fa">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="52f26146-4b8a-5d29-8ad8-bed6b02bda25" elementId="52f26146-4b8a-5d29-8ad8-bed6b02bda25" declaredName="point" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="52f26146-4b8a-5d29-8ad8-bed6b02bda25" elementId="52f26146-4b8a-5d29-8ad8-bed6b02bda25" declaredName="point" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="002de602-cfdf-5c71-97a5-b5b58909cb85" elementId="002de602-cfdf-5c71-97a5-b5b58909cb85" typedFeature="52f26146-4b8a-5d29-8ad8-bed6b02bda25">
                 <type href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#69c5668c-b6a2-5883-b944-d4aa20de8103"/>
               </ownedRelationship>
@@ -780,7 +780,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="ebc9830c-0dfe-5502-a999-06be2e0c4362" elementId="ebc9830c-0dfe-5502-a999-06be2e0c4362">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="b8b1a873-86e8-5bc5-9f03-71b096455d14" elementId="b8b1a873-86e8-5bc5-9f03-71b096455d14" declaredName="enclosingItem" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="b8b1a873-86e8-5bc5-9f03-71b096455d14" elementId="b8b1a873-86e8-5bc5-9f03-71b096455d14" declaredName="enclosingItem" direction="in">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="cf53914a-8971-5a9f-abee-c5e956e296c2" elementId="cf53914a-8971-5a9f-abee-c5e956e296c2" redefiningFeature="b8b1a873-86e8-5bc5-9f03-71b096455d14">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/SpatialFrames.kermlx#82634146-88c5-54b3-ad46-522e539aadba"/>
               </ownedRelationship>
@@ -795,7 +795,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="8ff7f23c-d659-58cc-a5b2-86dd28a35a38" elementId="8ff7f23c-d659-58cc-a5b2-86dd28a35a38">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a970bbb9-23ef-5136-8d09-151102153786" elementId="a970bbb9-23ef-5136-8d09-151102153786" declaredName="clock" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a970bbb9-23ef-5136-8d09-151102153786" elementId="a970bbb9-23ef-5136-8d09-151102153786" declaredName="clock" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="701fbbd5-a1c2-59f9-a856-e5f2a6611892" elementId="701fbbd5-a1c2-59f9-a856-e5f2a6611892" typedFeature="a970bbb9-23ef-5136-8d09-151102153786">
                 <type href="../Quantities%20and%20Units/Time.sysmlx#e240778a-cfc4-58ea-9551-a99968e87c22"/>
               </ownedRelationship>
@@ -832,7 +832,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:ReturnParameterMembership" xmi:id="202d2e7e-270b-5b44-962b-beee8ed52139" elementId="202d2e7e-270b-5b44-962b-beee8ed52139">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="02202836-7c0d-525c-8ecf-1e5b109e95db" elementId="02202836-7c0d-525c-8ecf-1e5b109e95db" declaredName="positionVector" isComposite="false" direction="out">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="02202836-7c0d-525c-8ecf-1e5b109e95db" elementId="02202836-7c0d-525c-8ecf-1e5b109e95db" declaredName="positionVector" direction="out">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="56dec0fb-bb15-5e75-9361-ee3995fa514e" elementId="56dec0fb-bb15-5e75-9361-ee3995fa514e" typedFeature="02202836-7c0d-525c-8ecf-1e5b109e95db">
                 <type href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#d3e15e7d-3c4a-5b5b-9136-dbfcd8703aa0"/>
               </ownedRelationship>
@@ -844,7 +844,7 @@
                 </ownedRelatedElement>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="7c29a8ca-35ac-5005-a81d-35e0a0a774b0" elementId="7c29a8ca-35ac-5005-a81d-35e0a0a774b0">
-                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="4eaa59f7-2192-5b61-9ece-479679d930f1" elementId="4eaa59f7-2192-5b61-9ece-479679d930f1" isComposite="false">
+                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="4eaa59f7-2192-5b61-9ece-479679d930f1" elementId="4eaa59f7-2192-5b61-9ece-479679d930f1">
                   <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="595f5263-fdfb-52fa-97ec-b7f377a5c74d" elementId="595f5263-fdfb-52fa-97ec-b7f377a5c74d" redefiningFeature="4eaa59f7-2192-5b61-9ece-479679d930f1">
                     <redefinedFeature href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#4f490315-44b1-5faa-9cf2-b531418311ff"/>
                   </ownedRelationship>
@@ -886,7 +886,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="0b6fd5df-58c7-5e3d-8afb-21c71172d498" elementId="0b6fd5df-58c7-5e3d-8afb-21c71172d498" body="The DisplacementOf two Points relative to a SpatialItem, at a specific TimeInstantValue relative to a&#xA;given Clock, is the displacementVector computed as the difference between the PositionOf the &#xA;first Point and PositionOf the second Point, relative to that SpatialItem, at that timeInstant.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="48f47795-b9f4-593e-82de-c1250037763c" elementId="48f47795-b9f4-593e-82de-c1250037763c">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5443c3c9-a07f-5860-b19c-a848de41acfb" elementId="5443c3c9-a07f-5860-b19c-a848de41acfb" declaredName="point1" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="5443c3c9-a07f-5860-b19c-a848de41acfb" elementId="5443c3c9-a07f-5860-b19c-a848de41acfb" declaredName="point1" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="4fc5244b-3c5c-57bf-b55b-c0e2fe8bd124" elementId="4fc5244b-3c5c-57bf-b55b-c0e2fe8bd124" typedFeature="5443c3c9-a07f-5860-b19c-a848de41acfb">
                 <type href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#69c5668c-b6a2-5883-b944-d4aa20de8103"/>
               </ownedRelationship>
@@ -900,7 +900,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="6d05b743-083c-5af4-8377-f7dd259913b6" elementId="6d05b743-083c-5af4-8377-f7dd259913b6">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="7dbe08e5-e5b1-5090-b931-e9e8c683a0a7" elementId="7dbe08e5-e5b1-5090-b931-e9e8c683a0a7" declaredName="point2" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="7dbe08e5-e5b1-5090-b931-e9e8c683a0a7" elementId="7dbe08e5-e5b1-5090-b931-e9e8c683a0a7" declaredName="point2" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="b7b72bdb-2c98-54e2-93d7-7c694757c4af" elementId="b7b72bdb-2c98-54e2-93d7-7c694757c4af" typedFeature="7dbe08e5-e5b1-5090-b931-e9e8c683a0a7">
                 <type href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#69c5668c-b6a2-5883-b944-d4aa20de8103"/>
               </ownedRelationship>
@@ -914,7 +914,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="6310b152-d949-5e6d-87e1-42294dc8c8a3" elementId="6310b152-d949-5e6d-87e1-42294dc8c8a3">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="c83ac0d0-89c5-57e8-be61-32b6de38384c" elementId="c83ac0d0-89c5-57e8-be61-32b6de38384c" declaredName="timeInstant" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="c83ac0d0-89c5-57e8-be61-32b6de38384c" elementId="c83ac0d0-89c5-57e8-be61-32b6de38384c" declaredName="timeInstant" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="61509bb6-f875-59d8-b582-3bbf7e9c9ba6" elementId="61509bb6-f875-59d8-b582-3bbf7e9c9ba6" typedFeature="c83ac0d0-89c5-57e8-be61-32b6de38384c">
                 <type href="../Quantities%20and%20Units/Time.sysmlx#7d3887d6-118e-50c0-bbed-5ac6eceb288d"/>
               </ownedRelationship>
@@ -928,7 +928,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="50726854-d6ee-5480-a596-b66ea962525b" elementId="50726854-d6ee-5480-a596-b66ea962525b">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="ae68d1d5-bf62-5a26-874d-79f3cf45c26c" elementId="ae68d1d5-bf62-5a26-874d-79f3cf45c26c" declaredName="spatialItem" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="ae68d1d5-bf62-5a26-874d-79f3cf45c26c" elementId="ae68d1d5-bf62-5a26-874d-79f3cf45c26c" declaredName="spatialItem" direction="in">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="936885c7-6b94-555e-9886-ef128d655696" elementId="936885c7-6b94-555e-9886-ef128d655696" redefiningFeature="ae68d1d5-bf62-5a26-874d-79f3cf45c26c">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/SpatialFrames.kermlx#ae241210-7cc7-5c4e-ae1f-5fa094419aaa"/>
               </ownedRelationship>
@@ -943,7 +943,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="5476e5d9-8361-501a-925b-d8e1f3368609" elementId="5476e5d9-8361-501a-925b-d8e1f3368609">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="6b30efea-e141-583a-858a-ceed5773302f" elementId="6b30efea-e141-583a-858a-ceed5773302f" declaredName="clock" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="6b30efea-e141-583a-858a-ceed5773302f" elementId="6b30efea-e141-583a-858a-ceed5773302f" declaredName="clock" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="0bd1bbf7-19bd-56e8-b9cb-cf85ca5885f3" elementId="0bd1bbf7-19bd-56e8-b9cb-cf85ca5885f3" typedFeature="6b30efea-e141-583a-858a-ceed5773302f">
                 <type href="../Quantities%20and%20Units/Time.sysmlx#e240778a-cfc4-58ea-9551-a99968e87c22"/>
               </ownedRelationship>
@@ -980,7 +980,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:ReturnParameterMembership" xmi:id="9e7d2eb6-caa8-5e84-9eca-1831f2333ab9" elementId="9e7d2eb6-caa8-5e84-9eca-1831f2333ab9">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="ebcfdbda-d810-5f14-860d-b1c325679c6d" elementId="ebcfdbda-d810-5f14-860d-b1c325679c6d" declaredName="displacementVector" isComposite="false" direction="out">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="ebcfdbda-d810-5f14-860d-b1c325679c6d" elementId="ebcfdbda-d810-5f14-860d-b1c325679c6d" declaredName="displacementVector" direction="out">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="a24cf351-e0fd-5266-9358-b3df186c867b" elementId="a24cf351-e0fd-5266-9358-b3df186c867b" typedFeature="ebcfdbda-d810-5f14-860d-b1c325679c6d">
                 <type href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#2b39f143-dbad-58a1-9bd6-31afd79ae52b"/>
               </ownedRelationship>
@@ -992,7 +992,7 @@
                 </ownedRelatedElement>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="9d8022dc-bdcd-5b97-a1c6-e069331af806" elementId="9d8022dc-bdcd-5b97-a1c6-e069331af806">
-                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="f0fa0c34-3255-50dd-932b-51d1be7a9098" elementId="f0fa0c34-3255-50dd-932b-51d1be7a9098" isComposite="false">
+                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="f0fa0c34-3255-50dd-932b-51d1be7a9098" elementId="f0fa0c34-3255-50dd-932b-51d1be7a9098">
                   <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="c609ce7b-47bf-53dd-ad28-6940f98bd14d" elementId="c609ce7b-47bf-53dd-ad28-6940f98bd14d" redefiningFeature="f0fa0c34-3255-50dd-932b-51d1be7a9098">
                     <redefinedFeature href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#78bbc4ce-e146-5493-ba42-3752554190c4"/>
                   </ownedRelationship>
@@ -1034,7 +1034,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="40b3a5c4-bc95-5d4e-ab34-541fe1581c4f" elementId="40b3a5c4-bc95-5d4e-ab34-541fe1581c4f" body="The CurrentDisplacementOf two Points relative to a SpatialItem and a Clock is the DisplacementOf&#xA;the Points relative to the SpatialItem, at the currentTime of the Clock.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="5a1457dc-8418-5a6c-8f15-425171080635" elementId="5a1457dc-8418-5a6c-8f15-425171080635">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="c96f9530-a515-52b6-b72d-13ed0ee7c7c6" elementId="c96f9530-a515-52b6-b72d-13ed0ee7c7c6" declaredName="point1" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="c96f9530-a515-52b6-b72d-13ed0ee7c7c6" elementId="c96f9530-a515-52b6-b72d-13ed0ee7c7c6" declaredName="point1" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="3a0209bb-be52-5b23-b4b7-41bec5d32307" elementId="3a0209bb-be52-5b23-b4b7-41bec5d32307" typedFeature="c96f9530-a515-52b6-b72d-13ed0ee7c7c6">
                 <type href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#69c5668c-b6a2-5883-b944-d4aa20de8103"/>
               </ownedRelationship>
@@ -1048,7 +1048,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="02a845b3-0427-58c2-81bc-4bb7551b823b" elementId="02a845b3-0427-58c2-81bc-4bb7551b823b">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="8f97d29c-93cf-5c9f-b37e-fcaaf195e5f8" elementId="8f97d29c-93cf-5c9f-b37e-fcaaf195e5f8" declaredName="point2" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="8f97d29c-93cf-5c9f-b37e-fcaaf195e5f8" elementId="8f97d29c-93cf-5c9f-b37e-fcaaf195e5f8" declaredName="point2" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="f4af1153-d02e-58ff-95d2-c03345a61a67" elementId="f4af1153-d02e-58ff-95d2-c03345a61a67" typedFeature="8f97d29c-93cf-5c9f-b37e-fcaaf195e5f8">
                 <type href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kermlx#69c5668c-b6a2-5883-b944-d4aa20de8103"/>
               </ownedRelationship>
@@ -1062,7 +1062,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="f916d694-56e7-5cf7-b3a6-26c0b19669a0" elementId="f916d694-56e7-5cf7-b3a6-26c0b19669a0">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a0c296d9-5a87-5207-8fdb-6d1e475d2a78" elementId="a0c296d9-5a87-5207-8fdb-6d1e475d2a78" declaredName="spatialItem" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a0c296d9-5a87-5207-8fdb-6d1e475d2a78" elementId="a0c296d9-5a87-5207-8fdb-6d1e475d2a78" declaredName="spatialItem" direction="in">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="2b30aab7-6c0e-56dc-882c-756faba8c335" elementId="2b30aab7-6c0e-56dc-882c-756faba8c335" redefiningFeature="a0c296d9-5a87-5207-8fdb-6d1e475d2a78">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/SpatialFrames.kermlx#d97d85a9-e4de-5139-9c67-aa1f70cfdc27"/>
               </ownedRelationship>
@@ -1077,7 +1077,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="e1fbab7d-a2d6-5793-a492-954be7e82ab0" elementId="e1fbab7d-a2d6-5793-a492-954be7e82ab0">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="d677d3d8-28fa-52f9-8bfe-92269e5ac61e" elementId="d677d3d8-28fa-52f9-8bfe-92269e5ac61e" declaredName="clock" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="d677d3d8-28fa-52f9-8bfe-92269e5ac61e" elementId="d677d3d8-28fa-52f9-8bfe-92269e5ac61e" declaredName="clock" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="b31dc6be-e9ef-5e08-943b-b7d015757957" elementId="b31dc6be-e9ef-5e08-943b-b7d015757957" typedFeature="d677d3d8-28fa-52f9-8bfe-92269e5ac61e">
                 <type href="../Quantities%20and%20Units/Time.sysmlx#e240778a-cfc4-58ea-9551-a99968e87c22"/>
               </ownedRelationship>
@@ -1114,7 +1114,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:ReturnParameterMembership" xmi:id="9ea0546f-db65-5f01-bd20-6e09a635daa4" elementId="9ea0546f-db65-5f01-bd20-6e09a635daa4">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a8b2fe80-a453-5cd9-b2f7-a4773ede6d9c" elementId="a8b2fe80-a453-5cd9-b2f7-a4773ede6d9c" declaredName="displacementVector" isComposite="false" direction="out">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a8b2fe80-a453-5cd9-b2f7-a4773ede6d9c" elementId="a8b2fe80-a453-5cd9-b2f7-a4773ede6d9c" declaredName="displacementVector" direction="out">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="9084cc94-5d7d-5111-b559-7635623ad5d7" elementId="9084cc94-5d7d-5111-b559-7635623ad5d7" typedFeature="a8b2fe80-a453-5cd9-b2f7-a4773ede6d9c">
                 <type href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#2b39f143-dbad-58a1-9bd6-31afd79ae52b"/>
               </ownedRelationship>
@@ -1126,7 +1126,7 @@
                 </ownedRelatedElement>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="4225b0c9-3cab-534f-9847-70c93b4fecd3" elementId="4225b0c9-3cab-534f-9847-70c93b4fecd3">
-                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="1b306531-4b86-5483-9e7d-fd1f74b31908" elementId="1b306531-4b86-5483-9e7d-fd1f74b31908" isComposite="false">
+                <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="1b306531-4b86-5483-9e7d-fd1f74b31908" elementId="1b306531-4b86-5483-9e7d-fd1f74b31908">
                   <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="67f2299b-35ca-5e32-a748-828afa825c4f" elementId="67f2299b-35ca-5e32-a748-828afa825c4f" redefiningFeature="1b306531-4b86-5483-9e7d-fd1f74b31908">
                     <redefinedFeature href="../Quantities%20and%20Units/ISQSpaceTime.sysmlx#78bbc4ce-e146-5493-ba42-3752554190c4"/>
                   </ownedRelationship>

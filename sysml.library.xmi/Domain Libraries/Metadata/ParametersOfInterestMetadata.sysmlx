@@ -9,7 +9,7 @@
         <importedMembership href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#a7a5f343-e701-54d3-b03c-62a50433b15e"/>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="f004fef2-cbbb-54aa-adbc-e125c3df1f2c" elementId="f004fef2-cbbb-54aa-adbc-e125c3df1f2c">
-        <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="04407d5a-fe12-5727-9bb2-5b29d4cd7487" elementId="04407d5a-fe12-5727-9bb2-5b29d4cd7487" declaredName="measuresOfEffectiveness" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="04407d5a-fe12-5727-9bb2-5b29d4cd7487" elementId="04407d5a-fe12-5727-9bb2-5b29d4cd7487" declaredName="measuresOfEffectiveness" isUnique="false">
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="9c160489-997a-5039-a391-fc96bfb4161c" elementId="9c160489-997a-5039-a391-fc96bfb4161c">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="074655a3-6733-555f-87ed-78bf9b109a2b" elementId="074655a3-6733-555f-87ed-78bf9b109a2b">
               <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="4c81199f-da2a-571e-a132-14f5d4c6004a" elementId="4c81199f-da2a-571e-a132-14f5d4c6004a">
@@ -23,7 +23,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="923de0e2-7de0-5bca-a5eb-4fe662cd0608" elementId="923de0e2-7de0-5bca-a5eb-4fe662cd0608">
-        <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="2bd0a20d-b498-5479-9063-36891fc30326" elementId="2bd0a20d-b498-5479-9063-36891fc30326" declaredName="measuresOfPerformance" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="2bd0a20d-b498-5479-9063-36891fc30326" elementId="2bd0a20d-b498-5479-9063-36891fc30326" declaredName="measuresOfPerformance" isUnique="false">
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="c3437b24-a733-5049-9ab1-2a66e6f7e4be" elementId="c3437b24-a733-5049-9ab1-2a66e6f7e4be">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="d0ddbf94-1520-5784-99a3-2a9318383e2b" elementId="d0ddbf94-1520-5784-99a3-2a9318383e2b">
               <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="698031cf-70f6-52f7-94dd-597d5c9494a5" elementId="698031cf-70f6-52f7-94dd-597d5c9494a5">
@@ -45,7 +45,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="4f304ee5-29cc-59d4-be7a-3f715bb71a96" elementId="4f304ee5-29cc-59d4-be7a-3f715bb71a96" body="MeasureOfEffectiveness is semantic metadata for identifying an attribute as a&#xA;measure of effectiveness.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="be94b253-ca23-5f05-93c6-7ad92738a311" elementId="be94b253-ca23-5f05-93c6-7ad92738a311">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="32a10232-d2a2-5258-a1fa-f726a18d4cab" elementId="32a10232-d2a2-5258-a1fa-f726a18d4cab" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="32a10232-d2a2-5258-a1fa-f726a18d4cab" elementId="32a10232-d2a2-5258-a1fa-f726a18d4cab">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="419777b1-2c08-5e03-a0cc-e6217ffd84fa" elementId="419777b1-2c08-5e03-a0cc-e6217ffd84fa" redefiningFeature="32a10232-d2a2-5258-a1fa-f726a18d4cab">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#2a8ddda1-4188-5a2c-948a-e6048de1639b"/>
               </ownedRelationship>
@@ -55,7 +55,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="73ed5495-a25f-5495-81a8-09f9d48e3dc4" elementId="73ed5495-a25f-5495-81a8-09f9d48e3dc4">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="2e77c8ed-ff6f-5b30-95ca-938ef139efb6" elementId="2e77c8ed-ff6f-5b30-95ca-938ef139efb6" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="2e77c8ed-ff6f-5b30-95ca-938ef139efb6" elementId="2e77c8ed-ff6f-5b30-95ca-938ef139efb6">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="acd60b84-bd5f-5353-a656-446a6abf1ca6" elementId="acd60b84-bd5f-5353-a656-446a6abf1ca6" redefiningFeature="2e77c8ed-ff6f-5b30-95ca-938ef139efb6">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#4dea7712-ce02-5503-8f54-1e7318e6bf38"/>
               </ownedRelationship>
@@ -92,7 +92,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="4a17c681-632c-5752-bebe-19a59d76dd86" elementId="4a17c681-632c-5752-bebe-19a59d76dd86" body="MeasureOfPerformance is semantic metadata for identifying an attribute as a&#xA;measure of performance.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="08a76766-32d0-5a05-b156-48e0eceecaeb" elementId="08a76766-32d0-5a05-b156-48e0eceecaeb">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a9d602ef-c96b-5617-a0bb-bbe038cf3f29" elementId="a9d602ef-c96b-5617-a0bb-bbe038cf3f29" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="a9d602ef-c96b-5617-a0bb-bbe038cf3f29" elementId="a9d602ef-c96b-5617-a0bb-bbe038cf3f29">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="5c51b19d-149a-59f9-a3a3-f9bbcabc0106" elementId="5c51b19d-149a-59f9-a3a3-f9bbcabc0106" redefiningFeature="a9d602ef-c96b-5617-a0bb-bbe038cf3f29">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#2a8ddda1-4188-5a2c-948a-e6048de1639b"/>
               </ownedRelationship>
@@ -102,7 +102,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="6bfb6255-d92d-5848-b952-435157c7b3c9" elementId="6bfb6255-d92d-5848-b952-435157c7b3c9">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="d584c884-1d14-5ab9-808e-447f115efba6" elementId="d584c884-1d14-5ab9-808e-447f115efba6" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="d584c884-1d14-5ab9-808e-447f115efba6" elementId="d584c884-1d14-5ab9-808e-447f115efba6">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="a3eba311-9124-5aca-a98b-8c48d6d643e2" elementId="a3eba311-9124-5aca-a98b-8c48d6d643e2" redefiningFeature="d584c884-1d14-5ab9-808e-447f115efba6">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#4dea7712-ce02-5503-8f54-1e7318e6bf38"/>
               </ownedRelationship>

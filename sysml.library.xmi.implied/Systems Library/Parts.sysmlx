@@ -44,7 +44,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="5814f068-4f5b-56ff-9794-301b8f4aeb52" elementId="5814f068-4f5b-56ff-9794-301b8f4aeb52" body="Part is the most general class of objects that represent all or a part of a system.&#xA;Part is the base type of all PartDefinitions.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="d0faa274-2307-5d51-9b72-b4d0c259787b" elementId="d0faa274-2307-5d51-9b72-b4d0c259787b">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="73fde21b-008c-55ab-91a7-a20beafa76a1" elementId="73fde21b-008c-55ab-91a7-a20beafa76a1" declaredName="self" isImpliedIncluded="true" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="73fde21b-008c-55ab-91a7-a20beafa76a1" elementId="73fde21b-008c-55ab-91a7-a20beafa76a1" declaredName="self" isImpliedIncluded="true">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="ba67226b-7e83-5d5d-851f-75ded6ff71b9" elementId="ba67226b-7e83-5d5d-851f-75ded6ff71b9" typedFeature="73fde21b-008c-55ab-91a7-a20beafa76a1" type="0774a545-39e3-5bc1-9607-63beabc6bf65"/>
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="ade692c6-1e6f-5e7e-9c98-157c1d4e6e4d" elementId="ade692c6-1e6f-5e7e-9c98-157c1d4e6e4d" redefiningFeature="73fde21b-008c-55ab-91a7-a20beafa76a1">
                 <redefinedFeature href="Items.sysmlx#a4893e36-2d2d-531d-8571-742237854c23"/>
@@ -98,7 +98,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="b2082844-9120-5587-af9f-28a8871d2add" elementId="b2082844-9120-5587-af9f-28a8871d2add">
-            <ownedRelatedElement xsi:type="sysml:PortUsage" xmi:id="f369e0d6-4bba-5d84-8d3c-abda5e337f89" elementId="f369e0d6-4bba-5d84-8d3c-abda5e337f89" declaredName="ownedPorts" isImpliedIncluded="true" isAbstract="true" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:PortUsage" xmi:id="f369e0d6-4bba-5d84-8d3c-abda5e337f89" elementId="f369e0d6-4bba-5d84-8d3c-abda5e337f89" declaredName="ownedPorts" isImpliedIncluded="true" isAbstract="true">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="2e515954-51f3-5fd7-82f8-6f0a3e0be0b1" elementId="2e515954-51f3-5fd7-82f8-6f0a3e0be0b1" typedFeature="f369e0d6-4bba-5d84-8d3c-abda5e337f89">
                 <type href="Ports.sysmlx#331276d2-3064-5f35-8685-0a0423aaf3fb"/>
               </ownedRelationship>
@@ -496,7 +496,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="f5f213ed-4f88-534e-b47d-248f9e9709b7" elementId="f5f213ed-4f88-534e-b47d-248f9e9709b7">
-        <ownedRelatedElement xsi:type="sysml:PartUsage" xmi:id="0c6a9942-4bb9-58da-8344-57ecd220d4de" elementId="0c6a9942-4bb9-58da-8344-57ecd220d4de" declaredName="parts" isImpliedIncluded="true" isAbstract="true" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:PartUsage" xmi:id="0c6a9942-4bb9-58da-8344-57ecd220d4de" elementId="0c6a9942-4bb9-58da-8344-57ecd220d4de" declaredName="parts" isImpliedIncluded="true" isAbstract="true" isUnique="false">
           <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="535b1868-e8b2-5b5b-aa0e-52d5c434d56a" elementId="535b1868-e8b2-5b5b-aa0e-52d5c434d56a" typedFeature="0c6a9942-4bb9-58da-8344-57ecd220d4de" type="0774a545-39e3-5bc1-9607-63beabc6bf65"/>
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="010937c5-440a-5a59-a4c2-d5a0aad69efa" elementId="010937c5-440a-5a59-a4c2-d5a0aad69efa">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="47fcc12c-9fcf-58d0-84bd-f96645ff0183" elementId="47fcc12c-9fcf-58d0-84bd-f96645ff0183" isImpliedIncluded="true">

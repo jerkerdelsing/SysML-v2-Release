@@ -20,7 +20,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="f9b0f712-ebdc-5b38-85a6-f2390f63787b" elementId="f9b0f712-ebdc-5b38-85a6-f2390f63787b" body="OriginalRequirementMetadata identifies a usage as an original requirement.&#xA;It is intended to be used to tag the original requirement end of a Derivation.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="b454c03e-db0f-5f73-9ca0-8a8d0e0cc682" elementId="b454c03e-db0f-5f73-9ca0-8a8d0e0cc682">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="0efc1873-b15e-5cc8-a13f-00146cefb68d" elementId="0efc1873-b15e-5cc8-a13f-00146cefb68d" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="0efc1873-b15e-5cc8-a13f-00146cefb68d" elementId="0efc1873-b15e-5cc8-a13f-00146cefb68d">
               <ownedRelationship xsi:type="sysml:Subsetting" xmi:id="91e27467-6562-5872-8953-6c39a15e6f22" elementId="91e27467-6562-5872-8953-6c39a15e6f22" subsettingFeature="0efc1873-b15e-5cc8-a13f-00146cefb68d">
                 <subsettedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#2a8ddda1-4188-5a2c-948a-e6048de1639b"/>
               </ownedRelationship>
@@ -30,7 +30,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="33dc950f-1b27-5abf-ae26-5adbfd3364f4" elementId="33dc950f-1b27-5abf-ae26-5adbfd3364f4">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="dbaa83d8-7051-53e2-8331-9449105c0bb1" elementId="dbaa83d8-7051-53e2-8331-9449105c0bb1" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="dbaa83d8-7051-53e2-8331-9449105c0bb1" elementId="dbaa83d8-7051-53e2-8331-9449105c0bb1">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="ad49ae93-4d21-58c9-bee0-e4e649fb63b4" elementId="ad49ae93-4d21-58c9-bee0-e4e649fb63b4" redefiningFeature="dbaa83d8-7051-53e2-8331-9449105c0bb1">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#4dea7712-ce02-5503-8f54-1e7318e6bf38"/>
               </ownedRelationship>
@@ -69,7 +69,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="79964589-4ce6-51a4-b35a-9ef9f45d1525" elementId="79964589-4ce6-51a4-b35a-9ef9f45d1525" body="DerivedRequirementMetadata identifies a usage as a derived requirement.&#xA;It is intended to be used to tag the derived requirement ends of a Derivation.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="12645d4c-e861-57ce-bc2a-58e22ef3e592" elementId="12645d4c-e861-57ce-bc2a-58e22ef3e592">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="c7b0f9a8-85d7-5128-8f0b-ef41b6900ba8" elementId="c7b0f9a8-85d7-5128-8f0b-ef41b6900ba8" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="c7b0f9a8-85d7-5128-8f0b-ef41b6900ba8" elementId="c7b0f9a8-85d7-5128-8f0b-ef41b6900ba8">
               <ownedRelationship xsi:type="sysml:Subsetting" xmi:id="5a45aee6-c91f-572f-b8e0-4d3663572f3a" elementId="5a45aee6-c91f-572f-b8e0-4d3663572f3a" subsettingFeature="c7b0f9a8-85d7-5128-8f0b-ef41b6900ba8">
                 <subsettedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#2a8ddda1-4188-5a2c-948a-e6048de1639b"/>
               </ownedRelationship>
@@ -79,7 +79,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="97f9fb03-00cc-5d98-a5b8-d7c5386e3ab1" elementId="97f9fb03-00cc-5d98-a5b8-d7c5386e3ab1">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="b26e0acb-21ad-50ac-82fe-8aefbaae4666" elementId="b26e0acb-21ad-50ac-82fe-8aefbaae4666" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="b26e0acb-21ad-50ac-82fe-8aefbaae4666" elementId="b26e0acb-21ad-50ac-82fe-8aefbaae4666">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="feea879e-206b-5d0c-9dc4-a57139c96225" elementId="feea879e-206b-5d0c-9dc4-a57139c96225" redefiningFeature="b26e0acb-21ad-50ac-82fe-8aefbaae4666">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#4dea7712-ce02-5503-8f54-1e7318e6bf38"/>
               </ownedRelationship>
@@ -118,7 +118,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="e78daccd-492f-5f42-a469-a051fb2b39fd" elementId="e78daccd-492f-5f42-a469-a051fb2b39fd" body="DerivationMetadata is SemanticMetadata for a Derivation connection.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="18625afe-8cf0-5d96-b5df-2bcfbf374409" elementId="18625afe-8cf0-5d96-b5df-2bcfbf374409">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="46eb96d4-89f4-574b-a06e-404c774d0288" elementId="46eb96d4-89f4-574b-a06e-404c774d0288" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="46eb96d4-89f4-574b-a06e-404c774d0288" elementId="46eb96d4-89f4-574b-a06e-404c774d0288">
               <ownedRelationship xsi:type="sysml:Subsetting" xmi:id="c709ec87-bc34-5013-b0da-505b7c6a3fd2" elementId="c709ec87-bc34-5013-b0da-505b7c6a3fd2" subsettingFeature="46eb96d4-89f4-574b-a06e-404c774d0288">
                 <subsettedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#2a8ddda1-4188-5a2c-948a-e6048de1639b"/>
               </ownedRelationship>
@@ -128,7 +128,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="a5693a83-390c-5c3b-b330-e3b9a4e3a59a" elementId="a5693a83-390c-5c3b-b330-e3b9a4e3a59a">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="47fa37ac-16e7-5720-bbe8-368199a5bdf3" elementId="47fa37ac-16e7-5720-bbe8-368199a5bdf3" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="47fa37ac-16e7-5720-bbe8-368199a5bdf3" elementId="47fa37ac-16e7-5720-bbe8-368199a5bdf3">
               <ownedRelationship xsi:type="sysml:Subsetting" xmi:id="4d9fc0ec-f20d-544f-b6bf-677dd570814b" elementId="4d9fc0ec-f20d-544f-b6bf-677dd570814b" subsettingFeature="47fa37ac-16e7-5720-bbe8-368199a5bdf3">
                 <subsettedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#2a8ddda1-4188-5a2c-948a-e6048de1639b"/>
               </ownedRelationship>
@@ -138,7 +138,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="9d980142-adef-59e2-a21b-d038aaa65701" elementId="9d980142-adef-59e2-a21b-d038aaa65701">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="51aaa044-e732-57b0-b864-fd068e2ae30e" elementId="51aaa044-e732-57b0-b864-fd068e2ae30e" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="51aaa044-e732-57b0-b864-fd068e2ae30e" elementId="51aaa044-e732-57b0-b864-fd068e2ae30e">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="b7a58aac-8a9d-5b3b-8e52-a066da498569" elementId="b7a58aac-8a9d-5b3b-8e52-a066da498569" redefiningFeature="51aaa044-e732-57b0-b864-fd068e2ae30e">
                 <redefinedFeature href="../../Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kermlx#4dea7712-ce02-5503-8f54-1e7318e6bf38"/>
               </ownedRelationship>

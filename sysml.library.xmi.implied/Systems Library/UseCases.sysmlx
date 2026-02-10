@@ -37,7 +37,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:SubjectMembership" xmi:id="aee66175-124b-5759-9cd1-042fa35fbe54" elementId="aee66175-124b-5759-9cd1-042fa35fbe54">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="8f87624b-652c-556d-90e4-0b606abf7a24" elementId="8f87624b-652c-556d-90e4-0b606abf7a24" declaredName="subj" isImpliedIncluded="true" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="8f87624b-652c-556d-90e4-0b606abf7a24" elementId="8f87624b-652c-556d-90e4-0b606abf7a24" declaredName="subj" isImpliedIncluded="true" direction="in">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="49fec3ed-d023-5eb7-9ebd-b8a1bcb12ef2" elementId="49fec3ed-d023-5eb7-9ebd-b8a1bcb12ef2" redefiningFeature="8f87624b-652c-556d-90e4-0b606abf7a24">
                 <redefinedFeature href="Cases.sysmlx#1aca6884-52b3-567b-83ca-56926d84012d"/>
               </ownedRelationship>
@@ -190,7 +190,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="b7424f81-3d9e-57ec-a2b7-502d220d2775" elementId="b7424f81-3d9e-57ec-a2b7-502d220d2775">
-        <ownedRelatedElement xsi:type="sysml:UseCaseUsage" xmi:id="ae9bfa28-85d7-5946-b6ba-4ac7e94568ae" elementId="ae9bfa28-85d7-5946-b6ba-4ac7e94568ae" declaredName="useCases" isImpliedIncluded="true" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:UseCaseUsage" xmi:id="ae9bfa28-85d7-5946-b6ba-4ac7e94568ae" elementId="ae9bfa28-85d7-5946-b6ba-4ac7e94568ae" declaredName="useCases" isImpliedIncluded="true" isUnique="false">
           <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="8e358942-e801-58fd-90d5-de23142e1c17" elementId="8e358942-e801-58fd-90d5-de23142e1c17" typedFeature="ae9bfa28-85d7-5946-b6ba-4ac7e94568ae" type="1437bf09-8a7e-573d-b214-2071bf9de103"/>
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="c6d0ec10-f302-516e-9d34-11daecf16829" elementId="c6d0ec10-f302-516e-9d34-11daecf16829">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="8d80a0fa-7e87-5d0d-8054-6ff86631626c" elementId="8d80a0fa-7e87-5d0d-8054-6ff86631626c" isImpliedIncluded="true">

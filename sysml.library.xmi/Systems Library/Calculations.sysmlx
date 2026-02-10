@@ -54,7 +54,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="bd04b376-a495-5e6a-aa76-4337ba4048f1" elementId="bd04b376-a495-5e6a-aa76-4337ba4048f1">
-        <ownedRelatedElement xsi:type="sysml:CalculationUsage" xmi:id="b9765b13-8dc2-546b-8457-e71e02ec759c" elementId="b9765b13-8dc2-546b-8457-e71e02ec759c" declaredName="calculations" isAbstract="true" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:CalculationUsage" xmi:id="b9765b13-8dc2-546b-8457-e71e02ec759c" elementId="b9765b13-8dc2-546b-8457-e71e02ec759c" declaredName="calculations" isAbstract="true" isUnique="false">
           <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="1c2dd8ea-57b4-543c-911d-cc46fc24a024" elementId="1c2dd8ea-57b4-543c-911d-cc46fc24a024" typedFeature="b9765b13-8dc2-546b-8457-e71e02ec759c" type="c482be7b-b90a-5027-8883-6525c8b27b48"/>
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="97744ad2-2b3e-583c-a443-72bd461d97c4" elementId="97744ad2-2b3e-583c-a443-72bd461d97c4">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="39be77b5-11ab-5b65-8b9a-b763fc638ecb" elementId="39be77b5-11ab-5b65-8b9a-b763fc638ecb">

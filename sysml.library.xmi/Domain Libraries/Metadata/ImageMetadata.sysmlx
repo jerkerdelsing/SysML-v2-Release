@@ -14,7 +14,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="8d41d5aa-bd64-5b01-ac14-7e1be3ac99df" elementId="8d41d5aa-bd64-5b01-ac14-7e1be3ac99df" body="Image provides the data necessary for the physical definition of &#xA;a graphical image.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="b1dc9789-04fd-5918-b309-f81d18586dc7" elementId="b1dc9789-04fd-5918-b309-f81d18586dc7">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="25f2ca0a-e19e-5237-9066-676d0d98a8a2" elementId="25f2ca0a-e19e-5237-9066-676d0d98a8a2" declaredName="content" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="25f2ca0a-e19e-5237-9066-676d0d98a8a2" elementId="25f2ca0a-e19e-5237-9066-676d0d98a8a2" declaredName="content">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="0f9d68d0-8e51-5d7e-a164-8a93db993876" elementId="0f9d68d0-8e51-5d7e-a164-8a93db993876" typedFeature="25f2ca0a-e19e-5237-9066-676d0d98a8a2">
                 <type href="../../Kernel%20Libraries/Kernel%20Data%20Type%20Library/ScalarValues.kermlx#76028d3d-69a4-5e12-9002-ce403e0244bd"/>
               </ownedRelationship>
@@ -34,7 +34,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="ee10f5b1-cfca-5216-8f1a-9816d8543f0e" elementId="ee10f5b1-cfca-5216-8f1a-9816d8543f0e">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="fa6b0620-9b2b-5fed-9a14-efea5cf53f0e" elementId="fa6b0620-9b2b-5fed-9a14-efea5cf53f0e" declaredName="encoding" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="fa6b0620-9b2b-5fed-9a14-efea5cf53f0e" elementId="fa6b0620-9b2b-5fed-9a14-efea5cf53f0e" declaredName="encoding">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="d64ed824-a523-5eee-a69c-4f8278dbd3d8" elementId="d64ed824-a523-5eee-a69c-4f8278dbd3d8" typedFeature="fa6b0620-9b2b-5fed-9a14-efea5cf53f0e">
                 <type href="../../Kernel%20Libraries/Kernel%20Data%20Type%20Library/ScalarValues.kermlx#76028d3d-69a4-5e12-9002-ce403e0244bd"/>
               </ownedRelationship>
@@ -54,7 +54,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="6ee3ba12-ee49-558f-b364-0339516724f4" elementId="6ee3ba12-ee49-558f-b364-0339516724f4">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="a4603422-f2aa-5768-9b6d-b3a8bd31dafe" elementId="a4603422-f2aa-5768-9b6d-b3a8bd31dafe" declaredName="type" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="a4603422-f2aa-5768-9b6d-b3a8bd31dafe" elementId="a4603422-f2aa-5768-9b6d-b3a8bd31dafe" declaredName="type">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="586283ce-2161-5dbd-beb8-678f842ac18a" elementId="586283ce-2161-5dbd-beb8-678f842ac18a" typedFeature="a4603422-f2aa-5768-9b6d-b3a8bd31dafe">
                 <type href="../../Kernel%20Libraries/Kernel%20Data%20Type%20Library/ScalarValues.kermlx#76028d3d-69a4-5e12-9002-ce403e0244bd"/>
               </ownedRelationship>
@@ -74,7 +74,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="21c02653-7267-52ac-9f55-5681d23dfde8" elementId="21c02653-7267-52ac-9f55-5681d23dfde8">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="dc0471cb-d004-522d-b7be-8474ec43b490" elementId="dc0471cb-d004-522d-b7be-8474ec43b490" declaredName="location" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="dc0471cb-d004-522d-b7be-8474ec43b490" elementId="dc0471cb-d004-522d-b7be-8474ec43b490" declaredName="location">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="90fa015b-8c6a-57be-94a0-7752e858a67c" elementId="90fa015b-8c6a-57be-94a0-7752e858a67c" typedFeature="dc0471cb-d004-522d-b7be-8474ec43b490">
                 <type href="../../Kernel%20Libraries/Kernel%20Data%20Type%20Library/ScalarValues.kermlx#76028d3d-69a4-5e12-9002-ce403e0244bd"/>
               </ownedRelationship>
@@ -101,7 +101,7 @@
             <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="5bb6f599-e2d8-5064-b147-27dc92c632b1" elementId="5bb6f599-e2d8-5064-b147-27dc92c632b1" body="Icon metadata can be used to annotate a model element with an image to be used&#xA;to show render the element on a diagram and/or a small image to be used as an&#xA;adornment on a graphical or textual rendering. Alternatively, another metadata&#xA;definition can be annotated with an Icon to indicate that any model element &#xA;annotated by the containing metadata can be rendered according to the Icon.&#xA;"/>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="210de2ab-63c7-5528-a9a5-a749a9f23bfb" elementId="210de2ab-63c7-5528-a9a5-a749a9f23bfb">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="bfce9411-6537-53fa-b2d0-83aca2424ea4" elementId="bfce9411-6537-53fa-b2d0-83aca2424ea4" declaredName="fullImage" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="bfce9411-6537-53fa-b2d0-83aca2424ea4" elementId="bfce9411-6537-53fa-b2d0-83aca2424ea4" declaredName="fullImage">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="8684cc3c-587f-5acd-a418-0309b4c44eec" elementId="8684cc3c-587f-5acd-a418-0309b4c44eec" typedFeature="bfce9411-6537-53fa-b2d0-83aca2424ea4" type="2fd12edf-088c-5e04-ae2a-dd31abe2c12a"/>
               <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="6f6ddbc3-aa96-58c7-836d-1e14a2ac4a4d" elementId="6f6ddbc3-aa96-58c7-836d-1e14a2ac4a4d">
                 <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="17fbd6ae-e962-51a1-9d36-fac32cc4ba54" elementId="17fbd6ae-e962-51a1-9d36-fac32cc4ba54">
@@ -119,7 +119,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:FeatureMembership" xmi:id="3e21ce55-d985-50bf-a056-b82f80998321" elementId="3e21ce55-d985-50bf-a056-b82f80998321">
-            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="47b54024-42f5-5169-a375-ab86bec1b4ee" elementId="47b54024-42f5-5169-a375-ab86bec1b4ee" declaredName="smallImage" isComposite="false">
+            <ownedRelatedElement xsi:type="sysml:AttributeUsage" xmi:id="47b54024-42f5-5169-a375-ab86bec1b4ee" elementId="47b54024-42f5-5169-a375-ab86bec1b4ee" declaredName="smallImage">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="66882613-4c35-5abb-9b73-33dd5e0cba1d" elementId="66882613-4c35-5abb-9b73-33dd5e0cba1d" typedFeature="47b54024-42f5-5169-a375-ab86bec1b4ee" type="2fd12edf-088c-5e04-ae2a-dd31abe2c12a"/>
               <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="38c84e95-4ebf-5bcd-9781-358a3d2bd543" elementId="38c84e95-4ebf-5bcd-9781-358a3d2bd543">
                 <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="122419b9-943e-5575-9edb-4ddd6eb4e660" elementId="122419b9-943e-5575-9edb-4ddd6eb4e660">

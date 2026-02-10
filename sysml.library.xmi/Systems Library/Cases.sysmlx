@@ -40,7 +40,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:SubjectMembership" xmi:id="be5ca18c-2406-5951-8adb-b7151963fc34" elementId="be5ca18c-2406-5951-8adb-b7151963fc34">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="1aca6884-52b3-567b-83ca-56926d84012d" elementId="1aca6884-52b3-567b-83ca-56926d84012d" declaredName="subj" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="1aca6884-52b3-567b-83ca-56926d84012d" elementId="1aca6884-52b3-567b-83ca-56926d84012d" declaredName="subj" direction="in">
               <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="d5fd04af-db1f-511e-a8da-d0668425bf08" elementId="d5fd04af-db1f-511e-a8da-d0668425bf08" typedFeature="1aca6884-52b3-567b-83ca-56926d84012d">
                 <type href="../Kernel%20Libraries/Kernel%20Semantic%20Library/Base.kermlx#d5b4e7df-e644-5f2f-b95e-cf6f1f6c076d"/>
               </ownedRelationship>
@@ -95,7 +95,7 @@
                 <ownedRelatedElement xsi:type="sysml:Documentation" xmi:id="dd44b2ed-75f0-5dc8-aad0-e46f0f261b22" elementId="dd44b2ed-75f0-5dc8-aad0-e46f0f261b22" body="A check of whether the objective RequirementUsage was satisfied for this Case.&#xA;"/>
               </ownedRelationship>
               <ownedRelationship xsi:type="sysml:SubjectMembership" xmi:id="22125dff-2f6c-5593-be25-f4aba610a0eb" elementId="22125dff-2f6c-5593-be25-f4aba610a0eb">
-                <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="63c7b4ef-682e-5884-87c3-8a699158147e" elementId="63c7b4ef-682e-5884-87c3-8a699158147e" declaredName="subj" isComposite="false" direction="in">
+                <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="63c7b4ef-682e-5884-87c3-8a699158147e" elementId="63c7b4ef-682e-5884-87c3-8a699158147e" declaredName="subj" direction="in">
                   <ownedRelationship xsi:type="sysml:FeatureValue" xmi:id="e3594fc6-ff52-5fc5-8c49-c979caca5e97" elementId="e3594fc6-ff52-5fc5-8c49-c979caca5e97" isDefault="true">
                     <ownedRelatedElement xsi:type="sysml:FeatureReferenceExpression" xmi:id="3e1a0aad-9e03-5d98-8075-138b339d0260" elementId="3e1a0aad-9e03-5d98-8075-138b339d0260">
                       <ownedRelationship xsi:type="sysml:Membership" xmi:id="186d7fbf-82d3-5f27-b987-8aca12e84672" elementId="186d7fbf-82d3-5f27-b987-8aca12e84672" memberElement="ed183425-d49b-57e5-9cc5-c590137e9330"/>
@@ -109,7 +109,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:ReturnParameterMembership" xmi:id="e6e308b1-0318-5abd-af13-5746cb4e6928" elementId="e6e308b1-0318-5abd-af13-5746cb4e6928">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="ed183425-d49b-57e5-9cc5-c590137e9330" elementId="ed183425-d49b-57e5-9cc5-c590137e9330" declaredName="result" isComposite="false" direction="out">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="ed183425-d49b-57e5-9cc5-c590137e9330" elementId="ed183425-d49b-57e5-9cc5-c590137e9330" declaredName="result" direction="out">
               <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="05c07564-98a0-5941-9fc6-37ed77d30f18" elementId="05c07564-98a0-5941-9fc6-37ed77d30f18">
                 <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="377f8f9c-4caa-5f0c-8887-934baa09b8b9" elementId="377f8f9c-4caa-5f0c-8887-934baa09b8b9">
                   <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="87bd6fd8-aea9-56f7-8da8-dd10ae77a351" elementId="87bd6fd8-aea9-56f7-8da8-dd10ae77a351">
@@ -150,7 +150,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="3104a77c-d83c-55de-8ad8-7acadb0a000a" elementId="3104a77c-d83c-55de-8ad8-7acadb0a000a">
-        <ownedRelatedElement xsi:type="sysml:CaseUsage" xmi:id="381d69f6-e3ca-5e57-b2ed-36fcabfec6b8" elementId="381d69f6-e3ca-5e57-b2ed-36fcabfec6b8" declaredName="cases" isAbstract="true" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:CaseUsage" xmi:id="381d69f6-e3ca-5e57-b2ed-36fcabfec6b8" elementId="381d69f6-e3ca-5e57-b2ed-36fcabfec6b8" declaredName="cases" isAbstract="true" isUnique="false">
           <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="d0eece12-d7db-53d5-8906-70fc13096819" elementId="d0eece12-d7db-53d5-8906-70fc13096819" typedFeature="381d69f6-e3ca-5e57-b2ed-36fcabfec6b8" type="37cc1e0b-730b-57e9-9894-81e267d70d94"/>
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="468906e9-a70a-5177-915f-e6c6cf5e7ab1" elementId="468906e9-a70a-5177-915f-e6c6cf5e7ab1">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="d8fb7fdb-b83d-56ac-9a32-e348c39f0975" elementId="d8fb7fdb-b83d-56ac-9a32-e348c39f0975">

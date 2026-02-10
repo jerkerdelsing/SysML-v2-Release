@@ -46,7 +46,7 @@
             </ownedRelatedElement>
           </ownedRelationship>
           <ownedRelationship xsi:type="sysml:SubjectMembership" xmi:id="32286285-7f39-5f75-9429-3da7239710c4" elementId="32286285-7f39-5f75-9429-3da7239710c4">
-            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="55b01902-1713-5f24-9362-3cea8f485ec3" elementId="55b01902-1713-5f24-9362-3cea8f485ec3" declaredName="subj" isImpliedIncluded="true" isComposite="false" direction="in">
+            <ownedRelatedElement xsi:type="sysml:ReferenceUsage" xmi:id="55b01902-1713-5f24-9362-3cea8f485ec3" elementId="55b01902-1713-5f24-9362-3cea8f485ec3" declaredName="subj" isImpliedIncluded="true" direction="in">
               <ownedRelationship xsi:type="sysml:Redefinition" xmi:id="9760b9a5-1242-53ba-8bb4-572071ae4a0b" elementId="9760b9a5-1242-53ba-8bb4-572071ae4a0b" redefiningFeature="55b01902-1713-5f24-9362-3cea8f485ec3">
                 <redefinedFeature href="Cases.sysmlx#1aca6884-52b3-567b-83ca-56926d84012d"/>
               </ownedRelationship>
@@ -100,7 +100,7 @@
         </ownedRelatedElement>
       </ownedRelationship>
       <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="ab5adad1-e754-5201-84f1-8392b6bcd671" elementId="ab5adad1-e754-5201-84f1-8392b6bcd671">
-        <ownedRelatedElement xsi:type="sysml:AnalysisCaseUsage" xmi:id="8d731604-7c34-5398-9e5e-d0f9862766f3" elementId="8d731604-7c34-5398-9e5e-d0f9862766f3" declaredName="analysisCases" isImpliedIncluded="true" isAbstract="true" isUnique="false" isComposite="false">
+        <ownedRelatedElement xsi:type="sysml:AnalysisCaseUsage" xmi:id="8d731604-7c34-5398-9e5e-d0f9862766f3" elementId="8d731604-7c34-5398-9e5e-d0f9862766f3" declaredName="analysisCases" isImpliedIncluded="true" isAbstract="true" isUnique="false">
           <ownedRelationship xsi:type="sysml:FeatureTyping" xmi:id="0bf5e9a4-e5e1-551c-a339-be33e5f2a9f6" elementId="0bf5e9a4-e5e1-551c-a339-be33e5f2a9f6" typedFeature="8d731604-7c34-5398-9e5e-d0f9862766f3" type="456f0b7b-aab6-55c3-b4f9-8ce1554282d2"/>
           <ownedRelationship xsi:type="sysml:OwningMembership" xmi:id="e44504df-2c5b-57ed-b2af-daf025b60e8a" elementId="e44504df-2c5b-57ed-b2af-daf025b60e8a">
             <ownedRelatedElement xsi:type="sysml:MultiplicityRange" xmi:id="3d3a52a6-8392-557b-b6c4-81540c267d9d" elementId="3d3a52a6-8392-557b-b6c4-81540c267d9d" isImpliedIncluded="true">
